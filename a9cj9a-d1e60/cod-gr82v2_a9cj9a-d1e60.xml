@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 1</title>
+            <author ref="#per-bdp8db">Bernard of Parma</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2024-06-18">June 18, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+              <witness xml:id="R" n="cod-gr82v2">Rome 1582, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+           <change when="2024-06-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="1"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+        <div xml:id="a9cj9a-d1e60">
+          <head>Titulus 1</head>
+          <head type="question-title">De summa trinitate et fide catholica</head>
+            <!-- intro content -->
+          <div>
+            <head>Capitulum 1</head>
+            <p>
+              <lb ed="#R"/><quote  type="lemma" source="http://scta.info/resource/cice-l1t1-d1e119@8-8">Firmiter</quote> Non solet summari, sed pro summario diuidi<lb ed="#R"/>tur 
+              in duas partes principales. Secunda ibi <quote>Vna ve<lb ed="#R"/>ro</quote>.
+              Prima tractat de summa trinitate, &amp; eius operibus
+              <lb ed="#R"/>de fide
+              <lb ed="#R"/>catho<lb ed="#R"/>lica, 
+              &amp; 
+              articu<lb ed="#R"/>lis
+              fidei. Secunda pars
+              <lb ed="#R"/>principalis tractat de sa<lb ed="#R"/>cramentis.
+            </p>
+            <!-- Casus..; I'm not sure what this is or if it should be included -->
+            <p>
+              <lb ed="#R"/><quote  type="lemma" source="http://scta.info/resource/cice-l1t1-d1e119@8-8">firmiter</quote> Hoc ideo dicit, quia ordo fidei nostrae probari non potest: &amp; 
+              <cb ed="R" n="b"/>
+              <lb ed="#R"/>quia ubi ratio deficit fides supplet. <ref target="http://scta.info/resource/gd-p3d4-Dd1e1228"><!-- canon has two sub paragraphs, so target is at canon level -->de conse. di. 4. c. nihil est aliud</ref>; &amp; <ref target="http://scta.info/resource/gd-p3d5-d1e693">dist. 
+              vlt. c. vlti.</ref> arg. vt quod sermo sonat, affectus sentiat, id est, fides, <ref target="http://scta.info/resource/gd-p3d2-d1e1134">de conse. dist. 
+              <lb ed="#R"/>2. c. reuera, in fi.</ref> quia fides est de re non uisa, <ref target="http://scta.info/resource/gd-p2c33q3d4-d1e227">de poen. dist. 4, in domo, in fi.</ref>
+            </p>
+            <p>
+              <lb ed="#R"/><quote  type="lemma" source="http://scta.info/resource/cice-l1t1-d1e119@9-9">Credimus</quote> Hoc ideo dicit: quia dubius in fide, infidelis est <ref target="http://scta.info/resource/cice-l5t7-d1e119">infra de 
+              <lb ed="#R"/>haer. c. 1</ref> &amp; arg. <ref target="http://scta.info/resource/gd-p2c22q1-d1e120">22. q. 1. omne quod. in fi</ref>. Et est simile de accusato con<lb ed="#R"/>tra 
+              quem nihil est pro<lb ed="#R"/>batum, &amp; sic remanet du<lb ed="#R"/>bius 
+              quando se non purgat. 
+              <lb ed="#R"/>Et quia fides est exor<lb ed="#R"/>dium 
+              nostrae reparatio<lb ed="#R"/>nis: 
+              ideo prius de ea prae<lb ed="#R"/>mittit, 
+              quia prius homo 
+              <lb ed="#R"/>debet instrui in fide. <ref target="http://scta.info/resource/gd-p3d4-d1e912">de 
+              <lb ed="#R"/>conse. distin. 4, ante ba<lb ed="#R"/>ptismum</ref> 
+              &amp; <ref target="http://scta.info/resource/gd-p3d4-d1e927">c. ante 20</ref>
+            </p>
+            <p>
+              <quote type="lemma">Simpliciter<!-- this one wasn't in eds doc --></quote>
+            </p>
+            <p>
+              <quote type="lemma">Vnus</quote> hoc dictum fuit ad differentiam plurium planetarum, quos 
+              <lb ed="#R"/>quidam colebant tamquam deos.
+            </p>
+            <p>
+              <quote type="lemma">Verus</quote> dictus est ad differentiam fictorum.
+            </p>
+            <p>
+              <quote type="lemma">Aeternus</quote> hoc ideo dicit, quia misericordiae Dei nec mensuras pos<lb ed="#R"/>sumus 
+              ponere, nec tempora definire. <ref>de poenae. dist. 1, multiplex</ref>; et <ref>26. q. 6, is qui</ref>.
+            </p>
+            <p>
+              <quote type="lemma">Immensus</quote>
+            </p>
+            <p>
+              <quote type="lemma">Incomprehensibilis</quote>
+            </p>
+            <p>
+              <quote type="lemma">Omnipotens</quote>
+            </p>
+            <p>
+              <quote type="lemma">Ineffabilis</quote>
+            </p>
+            <p>
+              <quote type="lemma">Simplex omnino</quote>
+            </p>
+            <p>
+              <quote type="lemma">Coomnipotentes</quote>
+            </p>
+            <p>
+              <quote type="lemma">Coaeterni</quote>
+            </p>
+            <p>
+              <quote type="lemma">Simul</quote>
+            </p>
+            <p>
+              <quote type="lemma">Humanam</quote>
+            </p>
+            <p>
+              <quote type="lemma">Quasi communem</quote>
+            </p>
+            <p>
+              <quote type="lemma">Diabolus</quote>
+            </p>
+            <p>
+              <quote type="lemma">Daemones</quote>
+            </p>
+            <p>
+              <quote type="lemma">Creati sunt boni</quote>
+            </p>
+            <p>
+              <quote type="lemma">Per se</quote>
+            </p>
+            <p>
+              <quote type="lemma">Diaboli suggestione</quote>
+            </p>
+            <p>
+              <quote type="lemma">Diaboli suggestione</quote>
+            </p>
+            <p>
+              <quote type="lemma">Ordinatissimam</quote>
+            </p>
+            <p>
+              <quote type="lemma">A tota trinitate</quote>
+            </p>
+            <p>
+              <quote type="lemma">Incarnatus</quote>
+            </p>
+            <p>
+              <quote type="lemma">Vna</quote>
+            </p>
+            <!-- additio; not sure what to do with this  -->
+            <p>
+              <quote type="lemma">Impassibilis</quote>
+            </p>
+            <p>
+              <quote type="lemma">Mortuus</quote>
+            </p>
+            <p>
+              <quote type="lemma">Descendit ad inferos</quote>
+            </p>
+            <p>
+              <quote type="lemma">Resurrexit a mortuis</quote>
+            </p>
+            <p>
+              <quote type="lemma">Ascendit in caelum</quote>
+            </p>
+            <p>
+              <quote type="lemma">Venturus</quote>
+            </p>
+            <p>
+              <quote type="lemma">Gestant</quote>
+            </p>
+            <p>
+              <quote type="lemma">Vna.</quote>
+            </p>
+            <p>
+              <quote type="lemma">Impassibilis</quote>
+            </p>
+            <p>
+              <quote type="lemma">Extra quam</quote>
+            </p>
+            <p>
+              <quote type="lemma">Est sacrificium</quote>
+            </p>
+            <p>
+              <quote type="lemma">Panis et vini</quote>
+            </p>
+            <p>
+              <quote type="lemma">Claues ecclesiae</quote>
+            </p>
+            <p>
+              <quote type="lemma">Sacramentum vero baptismi</quote>
+            </p>
+            <p>
+              <quote type="lemma">A quocumque</quote>
+            </p>
+            <!-- additio here -->
+            <p>
+              <quote type="lemma">Coniugati</quote>
+            </p>
+          </div>
+          <div>
+            <head>Capitulum 2</head>
+            <!-- section with divisional instruction
+              <p>
+              <quote type="lemma">Damnamus</quote>
+            </p>-->
+            <!-- casus here that mentions/quotes lombard. would be ideal to add this. Not clear what a "casus" is though -->
+            <p>
+              <quote type="lemma">Non est generant</quote>
+            </p>
+            <p>
+              <quote type="lemma">Asserit</quote> scilicet Iaochim.
+            </p>
+            <p>
+              <quote type="lemma">Ille</quote> scilicet Petrus
+            </p>
+            <p>
+              <quote type="lemma">Qui plantat</quote> scilicet praedicando
+            </p>
+            <p>
+              <quote type="lemma">Et qui regat</quote> Baptizando in epistola ad Corinthios
+            </p>
+            <p>
+              <quote type="lemma">Vnum corpus, &amp;c</quote> Vnione charitatis &amp; spiritus <ref>de consecr. di<lb ed="#R"/>stin. 
+              4 quaeris a me</ref>
+            </p>
+            <p>
+              <quote type="lemma">Vt sint vnum</quote>
+            </p>
+            <p>
+              <quote type="lemma">Nos vnum</quote>
+            </p>
+            <p>
+              <quote type="lemma">Non enim</quote>
+              <!-- additio -->
+            </p>
+            <p>
+              <quote type="lemma">Ait</quote>
+            </p>
+          </div>
+        </div>
+      </body>
+   </text>
+</TEI>

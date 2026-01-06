@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Titulus 2</title>
+        <author ref="#per-bdp8db">Bernard of Parma</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Prooemium</title>
+          <date when="2026-01-06">January 06, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="R" n="cod-gr82v2">Rome 1582, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-01-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#R" n="1"/>
+        <cb ed="#R" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="a9cj9a-d1e71">
+        <head xml:id="a9cj9a-d1e71-Hd1e100">Titulus 2</head>
+        <head xml:id="a9cj9a-d1e71-Hd1e102" type="question-title">De constitutionibus</head>
+        <!-- intro content -->
+          <p xml:id="a9cj9a-d1e71-d1e107">
+          <quote xml:id="a9cj9a-d1e71-Qd1e109">Canonum</quote>
+          Generalium scilicet, quia quidam canones sunt personales, quidam locales, <ref xml:id="a9cj9a-d1e71-Rd1e111">63. dist., cum longe</ref>; <ref xml:id="a9cj9a-d1e71-Rd1e113">infra, de elect., nihil est</ref>.  Quidam causales, quidam temporales, ut <ref xml:id="a9cj9a-d1e71-Rd1e115">29. dist., sciendum</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e118">
+          <quote xml:id="a9cj9a-d1e71-Qd1e120">Statuta</quote>
+          Non abrogate vel per contrarium canonem, vel per consuetudinem illa enim servanda non sunt, <ref xml:id="a9cj9a-d1e71-Rd1e122">26. dist., unius</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e124">36. q. 2, placuit</ref>.  Et dic statuta continentia praecepta, vel prohibitiones.  Alias si de concilio loquerentur, non obligarent, <ref xml:id="a9cj9a-d1e71-Rd1e126">14. q. 1, quisquis § quod praecipitur</ref>; <ref xml:id="a9cj9a-d1e71-Rd1e128">4. dist., denique § haec et si legibus</ref>. </p>
+          <p xml:id="a9cj9a-d1e71-d1e132">
+          <quote xml:id="a9cj9a-d1e71-Qd1e134">Custodiantur</quote>
+          <ref xml:id="a9cj9a-d1e71-Rd1e136">1. q. 7, si quis omne</ref>; <ref xml:id="a9cj9a-d1e71-Rd1e138">19. dist., si Romanorum</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e140">infra, de consti., quoniam</ref>.</p>
+          <p xml:id="a9cj9a-d1e71-d1e143">
+          <quote xml:id="a9cj9a-d1e71-Qd1e145">Ab omnibus</quote>
+          Sic et leges ab omnibus sunt servandae, ut <ref xml:id="a9cj9a-d1e71-Rd1e147">C. de legi. et const., leges 1</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e149">C. de iuris et fact. ignor., constitutiones</ref>.  Et dic ab omnibus, scilicet, subditis.  Nam Papa et imperator legibus non constringuntur, <ref xml:id="a9cj9a-d1e71-Rd1e151">ff. de legib., princeps</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e153">9. q. 3, cuncta</ref>.  Tamen legibus se velle vivere profitentur; <ref xml:id="a9cj9a-d1e71-Rd1e156">C. de legi. et const., digna vox</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e158">C. de testament., ex imperfecto</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e160">ff. de leg. 3, ex imperfecto</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e162">Inst. quib. mo. test. infir. § eadem oratione</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e164">2. q. 7, nos si incompetenter</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e167">
+          <quote xml:id="a9cj9a-d1e71-Qd1e169">In actionibus</quote>
+          Scilicet, civilibus.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e172">
+          <quote xml:id="a9cj9a-d1e71-Qd1e174">Vel iudiciis</quote>
+          Scilicet, criminalibus, quia iudicium aliud criminale, aliud civile, infra, qui fil. sint legit., per venerabilem, circa fi. § tria.  Nec est necesse proponere actionem, infra, de iudic., dilecti.  Si tamen quis proponit ineptam, succumbit, sed aptam potest postea proponere, ut infra, de iudic., examinata, ubi de hoc.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e177">
+          <quote xml:id="a9cj9a-d1e71-Qd1e179">Suo sensu</quote>
+          Scilicet, malo.  Et est simile, <ref xml:id="a9cj9a-d1e71-Rd1e181">3. q. 9, pura</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e183">infra, de consti., ne innitaris</ref>.  Quinque enim suo sensu uti debet iudex in iudicando proprie accepto vocabulo, <ref xml:id="a9cj9a-d1e71-Rd1e185">ff. de recepti., qualem</ref>; et in <ref xml:id="a9cj9a-d1e71-Rd1e187">Auth. iusiur. quod praest. ab his qui admin. accip., circa princ., coll. 2</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e190">infra, de renunciat., in praesentia</ref>.  Dum tamen secundum leges et iura pronunciet, in <ref xml:id="a9cj9a-d1e71-Rd1e192">Auth. de iudicib. § quia vero, ver. omnis iudex, alias est § coll. 6</ref>; et in <ref xml:id="a9cj9a-d1e71-Rd1e194">Auth. de defensor. civit. § iusiurandum, coll. 3</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e196">3. q. 7, iudicet</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e198">20. dist., de libellis</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e200">37. dist., relatum</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e203">Inst. de off. iudic., in princ.</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e205">C. de sent. et interloc. om. iud., nemo</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e208">
+          <quote xml:id="a9cj9a-d1e71-Qd1e210">X 1.02.02 Cognoscentes</quote>
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e214">
+          <quote xml:id="a9cj9a-d1e71-Qd1e216">Culpa caret</quote>
+          Quia quod legitime factum est, poenam non meretur, <ref xml:id="a9cj9a-d1e71-Rd1e218">C. de adulter., Gracchus</ref>.  Et peccata suos debent tenere auctores, <ref xml:id="a9cj9a-d1e71-Rd1e220">C. de poe., sancimus</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e222">infra, de his quae fi. a maior. par. cap., quaesivit</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e224">infra, de sent. excom., extravag. Romana, in fi</ref>.  Et ita est hic arg. expressum, quod nemo privatur iure suo sine culpa, <ref xml:id="a9cj9a-d1e71-Rd1e227">56. dist., satis perversum</ref>; <ref xml:id="a9cj9a-d1e71-Rd1e229">16. q. 7, inventum</ref>; <ref xml:id="a9cj9a-d1e71-Rd1e231">infra, de restit. spol., conquerente</ref>.  Arg. contra <ref xml:id="a9cj9a-d1e71-Rd1e233">22. dist., renovantes</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e235">34. dist., si cuius uxorem</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e237">34. dist., si laici uxor</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e240">27. q. 2, multorum</ref>; <ref xml:id="a9cj9a-d1e71-Rd1e242">infra, de cleri. coniug., sane 1</ref>.  Solutio: prima rubrica regulariter vera est, contraria casualia sunt.  Vel dicas, quod licet quandoque quis privetur iure suo sine culpa, non tamen sit illud sine causa; <ref xml:id="a9cj9a-d1e71-Rd1e244">infra, ut lite non cont., quoniam § si vero</ref>; et causam facile est videre in contrariis signatis.  In sex casibus privatur aliquis iure suo sine culpa sua.  Unde versus: Paupertas odium vitium favor et scelus ordo personas spoliant et loca iure suo.  Ista notantur in <ref xml:id="a9cj9a-d1e71-Rd1e246">22. dist., renovantes</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e248">infra, de privileg., antiqua, ubi de hoc</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e251">
+          <quote xml:id="a9cj9a-d1e71-Qd1e253">Futuris</quote>
+          Sic ergo constitutio respicit tantum futura, et non praeterita, ut infra, de consti., quoniam, dicemus de hoc.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e256">
+          <quote xml:id="a9cj9a-d1e71-Qd1e258">Non commendat</quote>
+          Id est, non puniat; vel id est, subiiciat.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e261">
+          <quote xml:id="a9cj9a-d1e71-Qd1e263">Ante prohibitionem</quote>
+          Arguit neminem ligari constitutione antequam ad ipsam perveniat, ut <ref xml:id="a9cj9a-d1e71-Rd1e265">32. q. 4, dixit Sara</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e267">82. dist., proposuisti</ref>.  Arguit contra <ref xml:id="a9cj9a-d1e71-Rd1e269">16. dist., quod dictis</ref>.  Sed non est contra, quia ex quo publice promulgata est et publicata, omnes tenentur ad ipsius observantiam, et omnes ligat post duos menses a publicationis tempore elapsos, in <ref xml:id="a9cj9a-d1e71-Rd1e271">Auth. ut fact. novae const., circa princ., coll. 5</ref>; <ref xml:id="a9cj9a-d1e71-Rd1e274">infra, de sent. excom., noverit</ref>; <ref xml:id="a9cj9a-d1e71-Rd1e276">infra, ne cler. vel mon. saecul. neg., non magnopere</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e278">infra, ne cler. vel mon. saecul. neg., super specula</ref>.  Nec est necesse ut singulorum auribus inculcetur, ut in <ref xml:id="a9cj9a-d1e71-Rd1e280">16. dist., quod dictis</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e282">infra, de postul. praelat., ad haec</ref>; nisi probaret se extra provinciam tunc fuisse, vel alias impeditum.  Arg. est expressum <ref xml:id="a9cj9a-d1e71-Rd1e284">infra, qui matrim. acc. poss., cum in tua</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e287">
+          <quote xml:id="a9cj9a-d1e71-Qd1e289">X 1.02.03 Translato</quote>
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e292">
+          <quote xml:id="a9cj9a-d1e71-Qd1e294">Sacerdotio</quote>
+          Supple levitico, ut cesset obiectio, quae potest fieri de Melchisedech, qui praecessit legem per quingentos annos, quod innuitur ex littera sequenti.  Quia sacerdotium simul fuit datum cum lege, verum est, supple leviticum.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e298">
+          <quote xml:id="a9cj9a-d1e71-Qd1e300">Quia enim</quote>
+          Sunt verba Augustini exponentis praedicta verba Apostoli.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e303">
+          <quote xml:id="a9cj9a-d1e71-Qd1e305">Simul</quote>
+          Quia in monte Sinai eodem tempore contulit dominus Moysi legem et sacerdotium, postquam ergo iam translatum est sacerdotium ad Christianos, ergo et lex transferri debet.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e308">
+          <quote xml:id="a9cj9a-d1e71-Qd1e310">Sub eadem sponsione</quote>
+          Quia postquam dominus dedit legem filiis Israel, dixit eis: Audi Israel mandata mea, et ea conserva in corde tuo; et si feceris, dabo tibi terram fluentem lac et mel.  Et tunc ipsi promiserunt servare legem et sacerdotium, et ideo dicit sub eadem sponsione.  Hic attende, quia dominus in veteri testamento temporalia promittebat, in novo vero promittit aeterna, ut Centuplum accipietis, et vitam aeternam possidebitis, etc.; <ref xml:id="a9cj9a-d1e71-Rd1e312">infra, de celeb. miss., cum Marthae</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e315">
+          <quote xml:id="a9cj9a-d1e71-Qd1e317">Quod de uno</quote>
+          Arg. quod ubi est eadem ratio, ibi debet esse idem ius; et quod de similibus, idem iudicium est habendum; <ref xml:id="a9cj9a-d1e71-Rd1e319">5. dist., ad eius vero, vers. enim ea</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e321">4. dist., denique, vers. unum quoque</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e323">16. q. 7, et hoc diximus</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e325">1. q. 3, si quis obiecerit</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e328">infra, de translat., inter corporalia, vers. sicut ergo</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e330">infra, de rescript., inter caeteras, in fi</ref>.  Et quoties ex una radice vitium nascitur, consequens est ut una lege tollatur, <ref xml:id="a9cj9a-d1e71-Rd1e332">C. de nupt., si libertam</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e334">1. q. 1, sicut Christus</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e336">22. q. 2, si quis per vetus</ref>.  Et quod dicit, quod de uno dicitur, id est, quod de uno constitutum est, et sic facit ad titulum, alias non videtur facere.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e339">
+          <quote xml:id="a9cj9a-d1e71-Qd1e341">X 1.02.04 Nam concupiscentiam</quote>
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e344">
+          <quote xml:id="a9cj9a-d1e71-Qd1e346">Nam concupiscentiam</quote>
+          Legitur in epistola Pauli ad Romanos: peccatum non cognovi nisi per legem.  Nam concupiscentiam nesciebam nisi lex diceret.  Augustinus exponit hic verba illa Apostoli, nam concupiscentiam, dicens quia hoc elegit Apostolus.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e350">
+          <quote xml:id="a9cj9a-d1e71-Qd1e352">Nesciebam</quote>
+          Esse peccatum concupiscere, vel tam grave, secundum aliam expositionem.  Apostolus antequam vidisset legem, non credebat esse peccatum concupiscere rem alterius, sed postquam invenit in lege, non concupisces, credidit esse peccatum.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e355">
+          <quote xml:id="a9cj9a-d1e71-Qd1e357">Hoc enim</quote>
+          Verba sunt Augustini, usque in fi.  Et dic hoc, scilicet nescire concupiscentiam tantum, vel removendam a se; vel hoc, id est peccatum.  Ita exponit Augustinus: si intelligas de concupiscentia carnis tantum, falsum esset, cum Apostolus haberet concupiscentiam, et stimulum carnis, unde dixit: video aliam legem in membris meis repugnantem legi mentis meae, captivantem me in lege peccati; <ref xml:id="a9cj9a-d1e71-Rd1e359">32. q. 5, si Paulus</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e362">
+          <quote xml:id="a9cj9a-d1e71-Qd1e364">Generale</quote>
+          Scilicet, vitium concupiscentiae, quod est generale ad omnia vitia.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e367">
+          <quote xml:id="a9cj9a-d1e71-Qd1e369">Unde omnia mala</quote>
+          Arguit quod uno prohibito, omnia prohibentur quae sequuntur ex illo, <ref xml:id="a9cj9a-d1e71-Rd1e371">13. q. 5, poenale</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e373">4. dist., denique</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e375">infra, de fide instrum., inter dilectos, ad fi</ref>; <ref xml:id="a9cj9a-d1e71-Rd1e377">C. de reb. alien., sancimus</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e380">C. de legi. et const., non dubium</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e383">
+          <quote xml:id="a9cj9a-d1e71-Qd1e385">Oriuntur</quote>
+          Id est, oriri possunt, et comprehendit genera singulorum, et non singula generum, id est, non est aliquod genus mali, quod quandoque non possit oriri ex concupiscentia.  Et sic intelligitur <ref xml:id="a9cj9a-d1e71-Rd1e387">47. dist., bonorum</ref>, ubi dicitur quod cupiditas est radix omnium malorum, ubi similiter comprehendit genera singulorum, et non singula generum; et <ref xml:id="a9cj9a-d1e71-Rd1e389">de poen. dist. 2, quia radix</ref>.  Et eodem modo intelligitur illud quod dicit imperator, quod avaritia est mater omnium malorum, in <ref xml:id="a9cj9a-d1e71-Rd1e391">Auth. ut iudic. sine quoq. suffr. § cogitatio, vers. fi., coll. 2</ref>  Et ex hoc generali vitio concupiscentiae omnia mala, id est, septem principalia vitia possunt oriri, scilicet: Superbia, Ira, Invidia, Accidia, Avaritia, Gula, Luxuria.  Et ideo dicit Augustinus cum Apostolo, quod bona sit lex, quae dum hoc, etc., non tamen propter hoc singula vitia cuiuslibet generis, ut puta interficere hominem, periurium, et similia oriuntur ex concupiscentia.  Vel expone quod dicit oriuntur, id est, orta sunt, si enim non concupivisset, non peccavissemus, <ref xml:id="a9cj9a-d1e71-Rd1e393">5. dist., ad eius vero, in fi</ref>.  Unde Gregorius, caro nos laeta traxit ad culpam, afflicta reduxit ad veniam, et sic non esset necesse comprehendere genera singulorum, etc.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e396">
+          <quote xml:id="a9cj9a-d1e71-Qd1e398">Lex</quote>
+          Id est, constitutio, ut in principio decretorum, <ref xml:id="a9cj9a-d1e71-Rd1e400">1. dist., lex</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e402">2. dist., lex</ref>.  Et sic facit ad titulum.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e406">
+          <quote xml:id="a9cj9a-d1e71-Qd1e408">X 1.02.05 Ne innitaris</quote>
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e411">
+          <quote xml:id="a9cj9a-d1e71-Qd1e413">Ne innitaris</quote>
+          In parabolis Salomonis ponuntur verba ista: Fili mi habe fiduciam in domino ex toto corde tuo, ne innitaris prudentiae tuae, ne sis sapiens apud temetipsum.  Hieronymus exponit hic particulam illam, ne innitaris prudentiae tuae, etc.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e416">
+          <quote xml:id="a9cj9a-d1e71-Qd1e418">Prudentiae tuae</quote>
+          Verba sunt Hieronymi usque in finem.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e421">
+          <quote xml:id="a9cj9a-d1e71-Qd1e423">Prudentiae suae</quote>
+          In malo.  Et est simile <ref xml:id="a9cj9a-d1e71-Rd1e425">8. q. 1, sciendum</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e427">3. q. 9, pura</ref>; et supra, de consti., canonum.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e430">
+          <quote xml:id="a9cj9a-d1e71-Qd1e432">Decretis</quote>
+          Id est, constitutionibus, et ita pertinet ad titulum.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e435">
+          <quote xml:id="a9cj9a-d1e71-Qd1e437">Praeponit</quote>
+          Non ergo sunt postponenda decreta, quae Hieronymus ita commendat, quod etiam fieri non debet; <ref xml:id="a9cj9a-d1e71-Rd1e439">37. dist., relatum</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e443">
+          <quote xml:id="a9cj9a-d1e71-Qd1e445">X 1.02.06 Cum omnes</quote>
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e448">
+          <quote xml:id="a9cj9a-d1e71-Qd1e450">Constitutum</quote>
+          Sed nonne canonici isti Trecenses poterant haec et alia statuere aliis irrequisitis etiam in praeiudicium successorum, cum istud videretur esse ius commune, quod absentes nihil percipiant, <ref xml:id="a9cj9a-d1e71-Rd1e452">infra, de cleri. non residen., inter quatuor</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e454">infra, de cleri. non residen., clericos</ref>; <ref xml:id="a9cj9a-d1e71-Rd1e456">infra, de appell., pervenit 2</ref>?  Immo videtur quod sic arguit <ref xml:id="a9cj9a-d1e71-Rd1e458">10. q. 2, ea enim § hoc ius porrectum</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e461">ff. de pacti., rescriptum</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e463">7. q. 1, factus est</ref>.  Sed hoc ideo non valuit, quia in praeiudicium aliorum et malo zelo, et contra consuetudinem ecclesiae hoc fecerunt, <ref xml:id="a9cj9a-d1e71-Rd1e465">infra, de consti., ex parte</ref>.  Et transgressor consuetudinis, ut transgressor legis puniendus est, <ref xml:id="a9cj9a-d1e71-Rd1e467">11. dist., in his</ref>.  Et statutum sive constitutio debet esse iusta et honesta et communis omnibus, <ref xml:id="a9cj9a-d1e71-Rd1e469">4. dist., erit autem</ref>.  Et quia constitutio ista non erat generalis, nec communis omnibus, ideo non valuit, etc.  Et cum ipsi canonici intelligantur quasi unum corpus et idem collegium, non debent duplici iure censeri; <ref xml:id="a9cj9a-d1e71-Rd1e471">11. q. 2, cognovimus</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e474">infra, de decim., cum in tua</ref>.  Et inconveniens aliud sequeretur, quod successores minus haberent quam praedecessores.  Et sic non esset vera successio in ius alterius, <ref xml:id="a9cj9a-d1e71-Rd1e476">ff. de acq. rer. dom., hereditas</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e478">ff. de acq. poss., cum heredes, in princ</ref>.  Ista constitutio non valuit, quia sine consensu episcopi facta fuit, <ref xml:id="a9cj9a-d1e71-Rd1e480">infra, de consuet., cum consuetudinis, circa fi</ref>.  Arguit contra <ref xml:id="a9cj9a-d1e71-Rd1e482">ff. de collat., si praegnantem, ubi sit collatio bonorum natis, sed non illis qui sunt nascituri</ref>.  Sed numquid est verum generaliter, quod maior pars capituli facit, totum capitulum facere intelligitur?  Quod videtur <ref xml:id="a9cj9a-d1e71-Rd1e484">infra, de his quae fi. a maior. par. cap., cum in cunctis</ref>.  Dicas quod si aliquid est commune pluribus, non ut collegiatis, sed ut singulis.  Quod fit a maiori parte illorum, nihil valet nisi omnes consentiant, <ref xml:id="a9cj9a-d1e71-Rd1e487">ff. de servitu. rust. praed., per fundum</ref>.  Nisi rem concedant in naturalem usum, quod potest facere unus etiam invitis sociis et contradicentibus, <ref xml:id="a9cj9a-d1e71-Rd1e489">Inst. de rerum div. § religiosum, vers. in commune vero sepulchrum</ref>.  Et nisi in casu <ref xml:id="a9cj9a-d1e71-Rd1e491">infra, de iure patron., postulasti</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e493">infra, de iure patron., quoniam</ref>.  Si vero sint plures, ut collegium, distingue, si aliqua facienda sunt ex necessitate, ut alienationes, electiones et similia.  Sufficit quod maior pars facit, <ref xml:id="a9cj9a-d1e71-Rd1e495">infra, de his quae fi. a maior. par. cap., cum in cunctis</ref>; dum tamen alii absentes vocentur, <ref xml:id="a9cj9a-d1e71-Rd1e497">infra, de elect., quod sicut</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e500">infra, de elect., venerabilem</ref>.  In aliis quae ex necessitate non fiunt, qualia erant ista quae isti faciebant, nihil potest fieri nisi omnes consentiant, ut hic, et in praedicta lege <ref xml:id="a9cj9a-d1e71-Rd1e502">ff. de servitu. rust. praed., per fundum</ref>.  Et debent consentire ut collegium, non tamquam singuli, arg. <ref xml:id="a9cj9a-d1e71-Rd1e504">infra, de consti., cum M</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e506">infra, de elect., in Genesi</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e509">
+          <quote xml:id="a9cj9a-d1e71-Qd1e511">Quod quisque</quote>
+          <ref xml:id="a9cj9a-d1e71-Rd1e513">ff. quod quisque iur., hoc edictum</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e515">1. dist. § humanum genus</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e518">
+          <quote xml:id="a9cj9a-d1e71-Qd1e520">Patere legem</quote>
+          Dicit Augustinus: talis sum in scriptis aliorum, quales volo esse intellectores meorum, <ref xml:id="a9cj9a-d1e71-Rd1e522">9. dist., neque quorumlibet</ref>.  Nec debent aliis legem imponere, quam ipsi negligunt observare, <ref xml:id="a9cj9a-d1e71-Rd1e524">infra, de praeben., pro illorum</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e527">
+          <quote xml:id="a9cj9a-d1e71-Qd1e529">Coaequatis</quote>
+          Sic ergo omnes pares debent esse in beneficiis, <ref xml:id="a9cj9a-d1e71-Rd1e531">infra, de consti., cum M</ref>.  De hac materia nota <ref xml:id="a9cj9a-d1e71-Rd1e533">infra, de maior. et obed., statuimus</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e536">
+          <quote xml:id="a9cj9a-d1e71-Qd1e538">Consuetudinem</quote>
+          Nota hic arg. optimum, quod in absentia potest quis percipere beneficium sine peccato, si consuetudo sit.  Secus est de iure communi, ut <ref xml:id="a9cj9a-d1e71-Rd1e540">infra, de cleri. non residen., quia nonnulli</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e542">infra, de cleri. non residen., relatum</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e546">
+          <quote xml:id="a9cj9a-d1e71-Qd1e548">X 1.02.07 Quae in ecclesiarum</quote>
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e551">
+          <quote xml:id="a9cj9a-d1e71-Qd1e553">Constituerunt</quote>
+          Quod eis licuit tam iure fori, quam iure poli.  Et vocatur ius civile, quod quisque populus sibi constituit, <ref xml:id="a9cj9a-d1e71-Rd1e555">Inst. de iure natural. § his generaliter</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e557">1. dist., ius civile</ref>.  Sed ex hoc statuto nullum praeiudicium ecclesiae generatur, ut hic, et <ref xml:id="a9cj9a-d1e71-Rd1e559">96. dist., bene quidem</ref>.  Etiam si in utilitatem ecclesiae redundaret, si auctoritas Papae non interveniret, ut in <ref xml:id="a9cj9a-d1e71-Rd1e561">96. dist., bene quidem</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e564">infra, de consti., ecclesia</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e566">10. dist., lege</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e568">infra, de re iudic., cum causa</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e571">
+          <quote xml:id="a9cj9a-d1e71-Qd1e573">Ad inopiam</quote>
+          Si culpa sua eget, indignum est ei subveniri, <ref xml:id="a9cj9a-d1e71-Rd1e575">ff. deposi., bona fides</ref>; arg. optimum ad hoc, <ref xml:id="a9cj9a-d1e71-Rd1e577">86. dist., non satis</ref>.  Vel si suo vitio incidit in egestatem.  Et est simile <ref xml:id="a9cj9a-d1e71-Rd1e579">infra, de consuet., ex parte</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e582">
+          <quote xml:id="a9cj9a-d1e71-Qd1e584">Alienandi feudum</quote>
+          Qui feudum alienat, cadit a iure feudi, et dominus illud alii concedere potest, <ref xml:id="a9cj9a-d1e71-Rd1e586">infra, de feud., ex parte</ref>; et in <ref xml:id="a9cj9a-d1e71-Rd1e588">lib. feud., in tit. alie. feu., constitutio si clientulus</ref>.  Sed alii in feudum dare potest, ut in dicta <ref xml:id="a9cj9a-d1e71-Rd1e590">constitutio si clientulus</ref>, et in <ref xml:id="a9cj9a-d1e71-Rd1e592">constitutio Lotharii</ref>, et in <ref xml:id="a9cj9a-d1e71-Rd1e595">constitutio imperialis</ref>.  Nec feudum dari potest in dotem, <ref xml:id="a9cj9a-d1e71-Rd1e597">infra, de don. int. vir. et uxor., nuper</ref>.  Nec usurarius potest usum vendere irrerquisito domino, ut <ref xml:id="a9cj9a-d1e71-Rd1e599">Inst. de usu et habit., in princ</ref>.  Nec emphyteuta potest vendere meliorationes suas domino irrequisito.  Quod si fecerit, dominus illud potest revocare, <ref xml:id="a9cj9a-d1e71-Rd1e601">C. de iure emphyt., cum dubitabatur</ref>; <ref xml:id="a9cj9a-d1e71-Rd1e603">infra, de loc. et cond., potuit</ref>.  Sed facta denunciatione domino, si dixerit se nolle emere, vel si a denunciatione duorum mensium spatium sit elapsum, potest vendere cui vult, dummodo non vendat personis prohibitis, <ref xml:id="a9cj9a-d1e71-Rd1e605">infra, de loc. et cond., potuit</ref>; quae decretalis Gregorii ix est.  Et in praedicta lege renunciare autem feudo vasallus non potest invito domino, cum eius favore introductum sit, ut vasallum habeat, arg. <ref xml:id="a9cj9a-d1e71-Rd1e608">C. de act. et oblig., sicut in initio</ref>.  Arg. contra <ref xml:id="a9cj9a-d1e71-Rd1e610">ff. de oper. lib., interdum</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e613">
+          <quote xml:id="a9cj9a-d1e71-Qd1e615">Personarum assensu</quote>
+          Non tamen sufficeret omnium consensus in hoc casu, quia alienatio facta de consensu omnium citra formam debitam, nulla est; <ref xml:id="a9cj9a-d1e71-Rd1e617">12. q. 2, sine exceptione</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e619">10. q. 2, hoc ius porrectum</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e621">C. de sacro. eccl., authen. iubemus, in fi</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e623">infra, de rebus ecc. non alien., extravag. dudum</ref>.  Sed si communis forma servata esset, teneret venditio, <ref xml:id="a9cj9a-d1e71-Rd1e626">infra, de his quae fi. a prael., cum nos</ref>.  Sed si laesa esset ecclesia, restuitur in integrum, <ref xml:id="a9cj9a-d1e71-Rd1e628">infra, de in integ. restit., requisivit</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e630">infra, de empt. et vend., cum dilecti</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e633">
+          <quote xml:id="a9cj9a-d1e71-Qd1e635">X 1.02.08 Cum accessissent</quote>
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e639">
+          <quote xml:id="a9cj9a-d1e71-Qd1e641">Vacuisset</quote>
+          Nulla iusta causa impediente, alias non curreret tempus, <ref xml:id="a9cj9a-d1e71-Rd1e643">infra, de concess. praeben., quia diversitatem</ref>; arguit ad hoc, <ref xml:id="a9cj9a-d1e71-Rd1e645">28. dist., de Syracusanae</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e647">2. q. 6, anteriorum § ad hoc</ref>.  Et si Papa interdicat aliquibus, ne eligant sine suo mandato speciali, tempus, scilicet, trium mensium, statutum a canone eis currit, nisi intra id tempus postulaverint licentiam eligendi, <ref xml:id="a9cj9a-d1e71-Rd1e649">infra, de elect., his quibus, decretali Gregorii ix</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e652">
+          <quote xml:id="a9cj9a-d1e71-Qd1e654">Constitutum</quote>
+          Ac ipsum statutum per sedem Apostolicam confirmatum fuerat.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e657">
+          <quote xml:id="a9cj9a-d1e71-Qd1e659">Confirmatum</quote>
+          Sed numquid canonici per se possunt minuere praebendas, vel dignitates tollere sine licentia domini Papae?  Videtur quod non, quia nec augere possunt, <ref xml:id="a9cj9a-d1e71-Rd1e661">infra, de consuet., cum olim</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e663">infra, de vit. et honest. cler., quoniam</ref>; <ref xml:id="a9cj9a-d1e71-Rd1e665">22. dist., omnes</ref>.  Quia honor ecclesiae potius debet augeri quam minui, <ref xml:id="a9cj9a-d1e71-Rd1e667">infra, de consti., ex parte, ubi est expressum quod non</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e670">de conse. dist. 1, vasa, vers. in hoc enim</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e672">infra, de verb. sign., transmissae</ref>.  Et quia temporibus nostris potius addi reverentiam cupimus, quam minui; <ref xml:id="a9cj9a-d1e71-Rd1e674">25. q. 1, quae ad perpetuam</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e676">25. q. 2, quaecumque</ref>.  Unde nec episcopus potest omitere quin statuat archipresbyterum, quasi solus ipse sufficiat, <ref xml:id="a9cj9a-d1e71-Rd1e678">infra, de offi. archipresb., ut singulae</ref>.  Et melius est qualecumque eligere quam ordinem plenum non esse, <ref xml:id="a9cj9a-d1e71-Rd1e680">ff. de decur., generaliter § penulti</ref>.  Ad hoc dixit Io. quod ex causa possunt minuere, ut <ref xml:id="a9cj9a-d1e71-Rd1e683">infra, de instit., non amplius</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e685">infra, de instit., auctoritate</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e687">infra, de consti., cum M</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e689">de auctoritate episcopi, 21. dist., in novo testamento</ref>.  Et quod possunt unam dignitatem tollere vel diminuere, vel mutare praebendas, probatur <ref xml:id="a9cj9a-d1e71-Rd1e691">16. q. 1, praecipimus</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e693">infra, de excess. praelat., sicut</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e696">ff. comm. praed., si quis duas § 1</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e698">ff. de negot. gest., cum alicui</ref>; <ref xml:id="a9cj9a-d1e71-Rd1e700">infra, de praeben., vacante</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e702">63. dist., quia sancta § verum</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e704">67. dist., quorum vices</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e706">67. dist., corepiscopi</ref>; et in praedicta decretali Honorii, <ref xml:id="a9cj9a-d1e71-Rd1e709">infra, de consti., ex parte, ubi dicit, licet non sint eius redditus diminuti</ref>.  Et ita videtur quod potuissent, si fuissent diminuti.  Io.  Sed verius credo, quod non possint sine auctoritate Papae, ne quandoque in fraudem hoc facerent, et causam subiicerent, cum non esset.  Et hoc idem dicitur de consensu episcopi, arg. optimum, <ref xml:id="a9cj9a-d1e71-Rd1e711">infra, de verb. sign., transmissae</ref>.  Quod ergo inutile fuit, hic confirmavit auctoritas domini Papae ex certa scientia, arg. <ref xml:id="a9cj9a-d1e71-Rd1e713">16. q. 1, quoniam quicquid</ref>; sicut et datur actio ex nudo pacto, si iuvetur auctoritate legis vel principis, <ref xml:id="a9cj9a-d1e71-Rd1e715">ff. de pacti., legitima</ref>.  Vel tene ut dixit Io., quod possunt iusta ex causa, alias non arg., <ref xml:id="a9cj9a-d1e71-Rd1e717">infra, de consti., cum M, vers. in tantum, a contrario</ref>.  Dignitatem tamen non credo quod possint creare vel supprimere sine auctoritate Papae, ut hic dicit, nec diminuere numerum iuramento firmatum, cui confirmatio sive constitutio domini Papae valet, ut confirmet infirmum, <ref xml:id="a9cj9a-d1e71-Rd1e719">2. q. 1, in primis</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e722">3. q. 6, hoc quippe</ref>.  Confirmat etiam et supplet defectum solemnitatis omissae, <ref xml:id="a9cj9a-d1e71-Rd1e724">infra, de translat., cum ex illo</ref>.  Item valet ut de beneficio illo, quod ex certa scientia confirmatur, postea directe an licite sit acquisitum, an non, sine novo mandato non cognoscatur, <ref xml:id="a9cj9a-d1e71-Rd1e726">infra, de confirm. util. vel inutil., de confirmationibus</ref>.  Si vero sub hac forma confirmat, scilicet, confirmamus sicut iuste possides, talis confirmatio modicum operatur, vel nihil, <ref xml:id="a9cj9a-d1e71-Rd1e728">infra, de confirm. util. vel inutil., si quis</ref>.  De qua confirmatione habes, <ref xml:id="a9cj9a-d1e71-Rd1e730">infra, de concess. praeben., quia diversitatem</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e733">
+          <quote xml:id="a9cj9a-d1e71-Qd1e735">Contravenerint</quote>
+          Videtur quod privilegium unico actu perdatur, ut hic, et <ref xml:id="a9cj9a-d1e71-Rd1e737">infra, de consti., cum M</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e739">infra, de praeben., pro illorum</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e741">11. q. 3, privilegium</ref>; <ref xml:id="a9cj9a-d1e71-Rd1e743">C. de iure dom. imp., si creditor</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e746">C. de his qui per met. non appel., his qui</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e748">C. de pac. inter emp. et ven., commissoriae</ref>.  Argumentum contra, quia delictum personae etc.; <ref xml:id="a9cj9a-d1e71-Rd1e750">16. q. 6, si episcopum</ref>; <ref xml:id="a9cj9a-d1e71-Rd1e752">infra, de arbitr., cum tempore</ref>; <ref xml:id="a9cj9a-d1e71-Rd1e754">infra, de privileg., accedentibus</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e756">infra, de privileg., si de terra</ref>.  Vincen. distinguit, aut datur privilegium ad faciendum aut ad non faciendum.  Si datur ad faciendum, et is qui impetravit spatio decem annorum non utitur eo, perdit illud, <ref xml:id="a9cj9a-d1e71-Rd1e759">ff. de nund., nundinis</ref>.  Si vero datur ad non faciendum, si Papa reservavit sibi aliquid iuris in eo, non potest tali privilegio renunciari expresse, <ref xml:id="a9cj9a-d1e71-Rd1e761">infra, de arbitr., cum tempore</ref>.  Sed si nihil sibi reservavit, puta quia dedit privilegium de non dandis decimis, tunc non perditur nisi legitimo tempore, scilicet, si quadraginta annorum spatio fecerit contra privilegium decimas solvendo, <ref xml:id="a9cj9a-d1e71-Rd1e763">infra, de privileg., accedentibus</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e765">infra, de privileg., si de terra</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e767">7. q. 1, quam periculosum</ref>.  Sed ibi sufficit quod semel renunciet, scilicet, circa beneficia.  Si datur ad excipiendum, perpetuum est, quia quae temporalia sunt ad agendum perpetua sunt ad excipiendum, <ref xml:id="a9cj9a-d1e71-Rd1e769">ff. de dol. except., pure § ulti</ref>.  Quod est verum, si nemo agat.  Sed si agat et non excipitur contra agentem, perditur privilegium, <ref xml:id="a9cj9a-d1e71-Rd1e772">ff. de procur., Pomponius § ratihabitionis</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e774">ff. de condi. indeb., si is qui</ref>.  Io. dixit quod si ille qui impetravit privilegium directe obviavit privilegio, perdit illud unico actu tantum, ut hic, et <ref xml:id="a9cj9a-d1e71-Rd1e776">infra, de consti., cum M</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e778">infra, de praeben., pro illorum</ref>.  Secus si non servat illud, vel si non tuetur se illo, tunc enim perdit legitimo tempore, <ref xml:id="a9cj9a-d1e71-Rd1e780">infra, de privileg., accedentibus</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e782">infra, de privileg., si de terra</ref>.  Magis enim delinquit qui directe venit contra privilegium, quam ille qui non utitur illo, arg. ad hoc, <ref xml:id="a9cj9a-d1e71-Rd1e785">84. dist., quisquis</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e787">infra, de sent. excom., contingit 2</ref>.  Alii distinguunt, an privilegium sit onerosum, et tunc unico actu tollitur, an sit favorabile, et tunc non perditur unico actu.  Tanc. melius videtur dicere, si privilegium datum est favore personae seu personarum, quale fuit hic, et in similibus concordantiis perditur unico actu.  Si datum est favore ecclesiae sive intuitu religionis, ut sunt privilegia de non solvendis decimis et similibus, non tollitur nisi legitimo tempore, ut dictum est.  Et haec opinio Tanc. habetur his versibus: Privatam legem tollit contrarius actus // Si personalis sit, si patet esse realis // tunc non perditur, nisi praescripsisse probetur.  Melius videtur dicendum quod sicut sunt diversa privilegia in diversis casibus concessa, quodlibet privilegium locum habeat in suo casu, sicut vides in praescriptionibus, quae diversa tempora requirunt.  Dic <ref xml:id="a9cj9a-d1e71-Rd1e789">ut infra, de decim., suggestum</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e792">
+          <quote xml:id="a9cj9a-d1e71-Qd1e794">Eligendo</quote>
+          Videtur quod talis electio non deberet valere, quia nova dignitas sine licentia Papae constitui non potest, <ref xml:id="a9cj9a-d1e71-Rd1e796">infra, de consuet., cum olim</ref>; <ref xml:id="a9cj9a-d1e71-Rd1e798">22. dist., omnes</ref>.  Sed haec electio videtur de novo esse creata, et sine licentia Papae non dicitur nova dignitas, sed ex consequentia antiquae dignitatis possunt eam resumere, argumentum ad hoc <ref xml:id="a9cj9a-d1e71-Rd1e800">infra, de feud., ex parte</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e802">infra, de Iudae. et Sarrac., consuluit</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e805">ff. de novi operis nunc., hoc edicto § si quis aedificium</ref>.  Ber.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e808">
+          <quote xml:id="a9cj9a-d1e71-Qd1e810">X 1.02.09 Cum M. Ferrariensis</quote>
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e814">
+          <quote xml:id="a9cj9a-d1e71-Qd1e816">Sociis</quote>
+          Et licet M. haberet mandatum, tamen sine mandato pro sociis absentibus agere posset, cum essent consortes eiusdem litis, quia agebant ut eis fieret communicatio de fructibus superexcrescentibus, tamen cavere debet de rato, ut <ref xml:id="a9cj9a-d1e71-Rd1e818">C. de consor. eius. lit., commune</ref>.  Et est speciale, alias non admittitur ad agendum sine mandato nisi esset coniuncta persona, <ref xml:id="a9cj9a-d1e71-Rd1e820">ff. de procur., sed hae personae, in princ.</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e822">infra, de rescript., nonnulli</ref>.  Et in alio est hic speciale, quia post litem contestatam datur cautio, quod est contra id quod legitur, <ref xml:id="a9cj9a-d1e71-Rd1e824">ff. de procur., Pomponius § ratihabitionis</ref>.  Sed illa lex, <ref xml:id="a9cj9a-d1e71-Rd1e827">ff. de procur., Pomponius</ref>, loquitur quando per procuratorem lis est contestata.  Vincen.  Sed non credo quod ista sit talis causa, quia quilibet agere poterat pro se et sine aliis, et iste M. habebat mandatum ab aliis, alias non fuisset admissus procurator.  Ber.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e830">
+          <quote xml:id="a9cj9a-d1e71-Qd1e832">Eo</quote>
+          Id est, in tantum.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e835">
+          <quote xml:id="a9cj9a-d1e71-Qd1e837">Quo</quote>
+          Id est, in quantum.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e840">
+          <quote xml:id="a9cj9a-d1e71-Qd1e842">Consuetudinem</quote>
+          Hoc non multum noceret, dummodo ex causa hoc facerent, ut dictum est supra, de consti., cum accessissent; arg. <ref xml:id="a9cj9a-d1e71-Rd1e844">ff. de decr. ab ord. fac., quod semel</ref>; et in <ref xml:id="a9cj9a-d1e71-Rd1e846">Auth. ut determ. sit num. cleric., vers. non enim, etc., coll. 1</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e848">infra, de instit., non amplius</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e850">infra, de instit., auctoritate</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e853">
+          <quote xml:id="a9cj9a-d1e71-Qd1e855">Providere</quote>
+          Subaudi quod ille M. cum sociis suis petebat ex illis fructibus superexcrescentibus sibi praebendas assignari.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e858">
+          <quote xml:id="a9cj9a-d1e71-Qd1e860">Ad eam</quote>
+          Si hoc esset verum, talis receptio non valebat, <ref xml:id="a9cj9a-d1e71-Rd1e862">infra, de praeben., maioribus</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e864">infra, de praeben., tuae fraternitatis</ref>.  Sed probata non fuit haec forma, sed hoc obiicere non poterant, quia fatebantur se fecisse contra constitutionem Turonensis concilii, <ref xml:id="a9cj9a-d1e71-Rd1e866">infra, de praeben., maioribus</ref>; quare non essent audiendi, <ref xml:id="a9cj9a-d1e71-Rd1e868">infra, de concess. praeben., cum super</ref>.  Et sic repelluntur suam turpitudinem allegantes, <ref xml:id="a9cj9a-d1e71-Rd1e871">infra, de dona., inter dilectos</ref>.  Vel dic ad eam, id est, ea vacante elegerunt duos simpliciter in canonicos.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e875">
+          <quote xml:id="a9cj9a-d1e71-Qd1e877">Alium</quote>
+          De quinto non fit hic mentio, quia forte capitulum confitebatur illum elegisse.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e880">
+          <quote xml:id="a9cj9a-d1e71-Qd1e882">Sine praeiudicio</quote>
+          Hic ergo non prodest protestatio, quod est verum, quando est contra substantiam facti, vel rei super qua sit, ut si protestatus fuisset cum reciperet aliquem in canoncum, ut non haberet praebendam, quae substantia est negotii, quia qui receptus est in canonicum non debet carere praebenda, ut <ref xml:id="a9cj9a-d1e71-Rd1e884">infra, de praeben., relatum</ref>.  Si vero protestetur sic, quod ea quae dicit, non dicit animo contestandi litem, talis bene valet.  Io.  <ref xml:id="a9cj9a-d1e71-Rd1e886">Infra, de appell., sollicitudinem</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e888">infra, de censib., olim</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e890">ff. de condi. indeb., quod quis sciens</ref>.  Arg. contra, <ref xml:id="a9cj9a-d1e71-Rd1e893">infra, de his quae vi met. caus. fi., perlatum</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e895">31. q. 2, Lotharius</ref>; <ref xml:id="a9cj9a-d1e71-Rd1e897">ff. quib. mod. pig. vel hyp. sol., si debitor § 1</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e899">infra, de in integ. restit., cum venissent</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e901">infra, de elect., Cumana, circa finem</ref>.  Solutio: ibi protestatio non valet ubi protestans per contrarium factum directe obviat suae protestationi, ut in dictis decretalibus <ref xml:id="a9cj9a-d1e71-Rd1e903">infra, de appell., sollicitudinem</ref>; <ref xml:id="a9cj9a-d1e71-Rd1e906">infra, de censib., olim</ref>; nisi hoc faceret iusta de causa, ut in dicto canonico <ref xml:id="a9cj9a-d1e71-Rd1e908">infra, de his quae vi met. caus. fi., perlatum</ref>.  Et quandoque protestatio plus prodest quam appellatio, <ref xml:id="a9cj9a-d1e71-Rd1e910">C. de fil. famil., cum appellasse, lib. 10</ref>.  Ideo potest dici quod protestatio profuit cum ipsi praebendas consuetas integre percipiunt, etiam si isti quinque de redditibus excrescentibus non percipiunt tantum, quantum antiqui, sed tamen praeiudicium fit eis quantum ad communem mensam.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e913">
+          <quote xml:id="a9cj9a-d1e71-Qd1e915">Receperunt</quote>
+          Unde eis providere debebant, <ref xml:id="a9cj9a-d1e71-Rd1e917">infra, de praeben., relatum</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e919">infra, de praeben., dilectus filius 1</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e921">infra, de concess. praeben., cum super</ref>.  Et nota quod alius est canonia et aliud praebenda.  Canonia est ius quod provenit ex electione et receptione in fratrem, ut hic.  Praebenda est quae procedit ex institutione et officio, quia ex quo quis facit officium, debet percipere beneficium.  Unde et laicus, ut dicit Vincen., potest habere praebendam, et potest esse praebendarius, sed non posse esse canonicus, <ref xml:id="a9cj9a-d1e71-Rd1e923">infra, de instit., in ecclesia</ref>.  Nota quod omnis canonicus debet habere praebendam, sed non convertitur, sola enim perceptio salarii non facit decurionem, <ref xml:id="a9cj9a-d1e71-Rd1e926">ff. de decur., sola salarii</ref>.  Ne quicumque habet canoniam, habet vocem in capitulo, ut puer, <ref xml:id="a9cj9a-d1e71-Rd1e928">infra, de aetat. et qualit., ex ratione</ref>; <ref xml:id="a9cj9a-d1e71-Rd1e930">ff. de decur., spurii</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e933">
+          <quote xml:id="a9cj9a-d1e71-Qd1e935">Nihil perciperent</quote>
+          Videtur quod hoc fuerit simoniacum, <ref xml:id="a9cj9a-d1e71-Rd1e937">infra, de praeben., dilectus filius 1</ref>.  Dic quod si intellexissent, et actum esset inter partes, quod nihil omnino perciperent, simoniacum fuisset.  Sed intelligebant quod tantum de praebendis divisis nihil perciperent.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e940">
+          <quote xml:id="a9cj9a-d1e71-Qd1e942">Industriam</quote>
+          Haec videbatur bona allegatio, quia per ipsorum industriam redditus sunt augmentati, non debent compelli illos communicare aliis, <ref xml:id="a9cj9a-d1e71-Rd1e944">C. de alluv., ea quae</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e946">infra, de in integ. restit., requisivit, in fi</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e948">ff. de rei vend., caeterum</ref>.  Et nemo compellit ad communionem, <ref xml:id="a9cj9a-d1e71-Rd1e950">ff. de condi. indeb., si non sortem § si centum</ref>; <ref xml:id="a9cj9a-d1e71-Rd1e953">ff. pro soc., qui admittitur</ref>.  Papa tamen non admisit illam allegationem, quia praeiudicaverunt sibi eos recipiendo.  Et tot ponendi sunt in ecclesiis, quot ex earum fructibus possunt commode sustentari, ut <ref xml:id="a9cj9a-d1e71-Rd1e955">infra, de instit., non amplius</ref>.  Quia bene poterant eis providere de communibus redditibus, nec distinguitur hic qualiter redditus augmententur, nec refert ex quo augmentati sunt, undecumque processerint, ut <ref xml:id="a9cj9a-d1e71-Rd1e957">infra, de verb. sign., transmissae</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e960">
+          <quote xml:id="a9cj9a-d1e71-Qd1e962">Possent sufficere</quote>
+          Arg. conditionem subintelligendam, ut <ref xml:id="a9cj9a-d1e71-Rd1e964">22. q. 2, beatus</ref>; <ref xml:id="a9cj9a-d1e71-Rd1e966">ff. qui satisda. cog., qui iurato</ref>; <ref xml:id="a9cj9a-d1e71-Rd1e968">infra, de iureiur., quemadmodum, ubi de hoc</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e970">infra, de rescript., ex parte Conventrensis</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e974">
+          <quote xml:id="a9cj9a-d1e71-Qd1e976">Ad vacaturas praebendas</quote>
+          Per hoc quod dicit ad vacaturas, dicunt quidam, ut Inno. iiii, quod haec decretalis continet dispensationem et non ius commune.  Sed non est verum.  Immo continet ius commune, cum ex concessione utriusque partis constet illos fuisse receptos in fratres et ad ius canoniae.  Sed hoc non est contra ius, quod aliquis recipiatur in canonicum, et expectet praebendam, sed nullum percipere beneficium.  Si percipi possit, est contra ius, <ref xml:id="a9cj9a-d1e71-Rd1e978">infra, de praeben., dilectus filius 1</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e980">infra, de praeben., relatum</ref>.  Quia aliud est canonia, aliud praebenda, ut dictum est supra eodem capitulo.  Et ideo Papa mandat eis dari superexcrescentes redditus.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e983">
+          <quote xml:id="a9cj9a-d1e71-Qd1e985">Ultra numerum</quote>
+          Hic potest quaeri utrum isti qui quotidie recipiuntur ultra numerum, habeat vocem in electione episcoporum vel aliorum praelatorum?  Dico standum esse consuetudini, et si nulla sit consuetudo, adhuc non credo quod debeant vocari ad huiusmodi tractatus vel electiones, cum nondum habeant plenum ius, nec etiam possessionem.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e988">
+          <quote xml:id="a9cj9a-d1e71-Qd1e990">Cum integritate</quote>
+          Sed cum canonici isti voluntarie receperunt quatuor ultra numerum constitutum auctoritate propria contra suam constitutionem, quare non compelluntur communicare suos redditus illis, ut sint omnes aequales, cum renunciare videantur suo privilegio, supra, de consti., cum accessissent?  Potest responderi quod ipsi hoc non petiverunt, ut in littera patet, et condemnatio non debet fieri nisi quatenus petitum est, ut infra, de ord. cognit., cum dilectus.  Vel dicas, quod si etiam petitum fuisset, non debet condemnari, quia non fuerunt recepti ultra numerum praebendarum, licet ultra canonicorum numerum, ut satis apparet in littera ipsa, ut dicitur supra eodem capitulo, in notula, per hoc.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e993">
+          <quote xml:id="a9cj9a-d1e71-Qd1e995">Post motam quaestionem</quote>
+          Nota quod quicquid in praeiudicium alterius partis lite pendente fit, debet in irritum revocari; <ref xml:id="a9cj9a-d1e71-Rd1e997">infra, ut lite penden., ecclesia 2</ref>; <ref xml:id="a9cj9a-d1e71-Rd1e999">infra, de despon. impub., ad dissolvendum, in fi</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1001">C. de rei vend., si fundum</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1003">C. de rei vend. certum</ref>; <ref xml:id="a9cj9a-d1e71-Rd1e1006">11. q. 1, quia res</ref>.  Arg. contra <ref xml:id="a9cj9a-d1e71-Rd1e1008">infra, de in integ. restit., cum venissent, in fi</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1011">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1013">Circa praebendas</quote>
+          Ut si aliqua praebenda de antiquis vacuit lite pendente, et illa forte sit alii assignata; vel si aliquis possessiones illas quas petebat, sibi in beneficiis occupavit, totum debet in irritum revocari.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1016">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1018">X 1.02.10 Ecclesia Sanctae Maria</quote>
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1022">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1024">Etiam religosis</quote>
+          Sic ergo laici ecclesiae nihil disponere possunt, sive in temporalibus, sive in spiritualibus, ut hic, et <ref xml:id="a9cj9a-d1e71-Rd1e1026">96. dist., bene quidam</ref>, unde haec decretalis sumpta fuit; et <ref xml:id="a9cj9a-d1e71-Rd1e1028">infra, de rebus ecc. non alien., cum laicis</ref>.  Quia ius spirituale, puta ius eligendi in ecclesia collegiata, etiam si sit patronus, non cadit in laicum; <ref xml:id="a9cj9a-d1e71-Rd1e1030">infra, de elect., sacrosancta</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1032">infra, de elect., Massana</ref>; non obstante aliqua consuetudine, ibi dicit Gregorius ix.  Nec de re spirituali compromitti potest in laicum, <ref xml:id="a9cj9a-d1e71-Rd1e1035">infra, de arbitr., contingit</ref>.  Nec iudicare de rebus ecclesiae possunt, <ref xml:id="a9cj9a-d1e71-Rd1e1037">infra, de iudic., decernimus</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1040">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1042">Personis ecclesiasticis</quote>
+          Arg. quod eodem iure censeri debent bona clericorum et ecclesiarum, ut <ref xml:id="a9cj9a-d1e71-Rd1e1044">infra, de vit. et honest. cler., ut laici, ubi de hoc</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1047">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1049">Ab ecclesia</quote>
+          Sic ergo quod alias est infirmum, confirmatio Papae facit firmum, <ref xml:id="a9cj9a-d1e71-Rd1e1051">infra, de transact., sicut</ref>.  De hoc dictum fuit supra, de consti., cum accessissent.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1054">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1056">Statutum</quote>
+          <ref xml:id="a9cj9a-d1e71-Rd1e1058">96. dist., bene quidem</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1061">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1063">Praediis rusticis</quote>
+          Rusticum praedium appellatur, quod est sine aliquo aedificio.  Urbanum praedium ubi factum est aedificium, ut domus, ut <ref xml:id="a9cj9a-d1e71-Rd1e1065">ff. comm. praed., aedificia</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1067">ff. de servitu. rust. praed., servitutes, et per totum</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1069">ff. de servitu. urb. praed., per totum</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1072">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1074">Ministeriis</quote>
+          Id est, vasis vel instrumentis.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1078">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1080">Ornamentis</quote>
+          Ut palliis et consimilibus, quibus ornatur ecclesia.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1083">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1085">Non conventi</quote>
+          Bene dicit, non conventi, quia conventio sive citatio est principium sive fundamentum ordinis iudicarii.  Primo notandum est quis citandus, ut <ref xml:id="a9cj9a-d1e71-Rd1e1087">infra, de maior. et obed., inter quatuor</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1089">infra, de probat., quoniam</ref>.  Ubi consimilia per ordinem ponuntur, citationes et dilationes, etc., per conventionem perpetuatur iurisdictio delegata, <ref xml:id="a9cj9a-d1e71-Rd1e1091">infra, de offi. deleg., gratum</ref>.  Sed videtur quod potuit procedere altera parte absente, cum esset iudex appellationis, <ref xml:id="a9cj9a-d1e71-Rd1e1093">infra, de appell., saepe</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1096">infra, de appell., interposita</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1098">2. q. 6, ei qui, in princ., ibi, appellatore cessante</ref>.  Et dicit lex quod quasi privilegium est illius qui cognoscit de appellatione, procedere altera parte absente, <ref xml:id="a9cj9a-d1e71-Rd1e1100">C. de temp. appel., cum anterioribus § illud</ref>.  Sed non est ita.  Semper enim quis debet citari, quaecumque sit causa, etiam in causa appellationis, <ref xml:id="a9cj9a-d1e71-Rd1e1102">infra, de appell., per tuas</ref>.  Immo non valet sententia ubi peremptorium edictum non venit ad absentis notitiam, vel ad eius domicilium, <ref xml:id="a9cj9a-d1e71-Rd1e1104">ff. quae sent. sine appel., illud § item cum ex edicto</ref>.  Et Ioannes de Archeia coram iudice appellationis erat, nec defendebat monasterium, quia dicebat quod non possidebat.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1107">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1109">Nec confessi</quote>
+          Et hoc verum est, quia nemo iudicandus est nisi convictus vel sponte confessus.  Quod si fiat, sententia nulla est, ut <ref xml:id="a9cj9a-d1e71-Rd1e1111">2. q. 1, nos in quemquam</ref>.  Per decretalem quam habes, <ref xml:id="a9cj9a-d1e71-Rd1e1113">infra, ut lite penden., ecclesia 2</ref>, intelligas finem istius capituli.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1116">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1118">X 1.02.11 Ex litteris</quote>
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1121">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1123">Fide</quote>
+          Id est, iuramento.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1126">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1128">Tertiove</quote>
+          Haec est enim legitima et canonica citatio sive admonitio trina, <ref xml:id="a9cj9a-d1e71-Rd1e1130">24. q. 3, de illicita § de conventione</ref>; <ref xml:id="a9cj9a-d1e71-Rd1e1132">16. q. 7, omnes decimae</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1134">17. q. 4, de presbyterorum</ref>; quia vindictam semper debet praecedere monitio; <ref xml:id="a9cj9a-d1e71-Rd1e1136">12. q. 2, indigne, in princ</ref>; <ref xml:id="a9cj9a-d1e71-Rd1e1139">infra, de vit. et honest. cler., ex litteris</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1141">infra, de sent. excom., contingit 2</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1143">infra, de sent. excom., sacro</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1147">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1149">Intra triduum</quote>
+          Nimis brevis fuit terminus, quia non poterat deliberare ad plenum, et ideo potuit in promptum incidisse periculum; simile, <ref xml:id="a9cj9a-d1e71-Rd1e1151">2. q. 6, anteriorum, 1. resp</ref>.  Ubi olim triduum dabatur ad appellandum, unde dati fuerunt postea decem dies, vel saltem terminum decem dierum statuissent, quia illud tempus modicum appellatur, <ref xml:id="a9cj9a-d1e71-Rd1e1153">ff. de constit. pecun., promissor § 1</ref>.  Et propter brevem terminum potest appellari; <ref xml:id="a9cj9a-d1e71-Rd1e1155">infra, de dilat., dilecti</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1158">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1160">In perpetuum</quote>
+          Dicit hic Innocentius iii, quod aliud est aliquem simpliciter excludere, et aliud in perpetuum excludere; simile, <ref xml:id="a9cj9a-d1e71-Rd1e1162">33. q. 4, non oportet 2, in glossa fi</ref>; et simile <ref xml:id="a9cj9a-d1e71-Rd1e1164">1. q. 1, sunt nonnulli, vers. beatus, ibi, non dicit</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1166">infra, de dona., pastoralis</ref>; sic, <ref xml:id="a9cj9a-d1e71-Rd1e1168">ff. pro soc., coiri</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1171">ea vero § 1, et in glossa</ref>.  Arg. contra <ref xml:id="a9cj9a-d1e71-Rd1e1173">50. dist., si lapsis, in fi., ibi, non statuta sed temporaliter dilata credatur</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1175">C. de poe., servus, in fi., ibi, eum qui aliquando, ex quo enim non est tempus definitum, de quolibet tempore intelligitur</ref>; <ref xml:id="a9cj9a-d1e71-Rd1e1177">1. q. 1, eos</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1179">ff. de evict., si rem § ulti</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1181">infra, de privileg., quia circa, ubi verbum simpliciter positum ad futura tempora trahitur, et generaliter intelligitur</ref>.  Item invenio quod idem est perpetuo removere quod simpliciter removere, ut <ref xml:id="a9cj9a-d1e71-Rd1e1184">1. q. 1, reperiuntur, in fi</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1186">79. dist., si quis ex episcopis</ref>; <ref xml:id="a9cj9a-d1e71-Rd1e1188">10. q. 1, quia sacerdotes</ref>; <ref xml:id="a9cj9a-d1e71-Rd1e1190">27. q. 1, de viduis</ref>.  Io.  Et <ref xml:id="a9cj9a-d1e71-Rd1e1192">infra, de cohab. cler. et mul., clericos</ref>.  Sed circa talia consideranda est natura sive causa cuiuscumque negotii, hic enim punitur pro contumacia, et non pro crimine, et contumacia saepe purgatur, ut facile est videre in multis.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1195">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1197">Iuris canonici</quote>
+          <ref xml:id="a9cj9a-d1e71-Rd1e1199">Infra, de sent. excom., per tuas</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1201">infra, de verb. sign., cum olim</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1203">infra, de verb. sign., ex parte in Christo, ibi est exemplum de contumacia et crimine</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1206">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1208">Admittatis</quote>
+          Non obstante illo mandato, si quid in medio tempore deliquisset, posset repelli, <ref xml:id="a9cj9a-d1e71-Rd1e1210">infra, de testibus cog., praeterea</ref>; arg. <ref xml:id="a9cj9a-d1e71-Rd1e1212">ff. de transaction., cum Aquiliana</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1215">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1217">X 1.02.12 Ex parte</quote>
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1220">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1222">Proprius commodis inhiantes</quote>
+          Id est, cupiditati intendentes.  Vitium denotat simile, <ref xml:id="a9cj9a-d1e71-Rd1e1224">supra, de consti., cum omnes</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1226">supra, de consti., cum M</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1230">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1232">Diminuti</quote>
+          Secus si essent diminuti, quia tunc videtur quod auctoritate episcopi possunt diminuere numerum.  Arg. <ref xml:id="a9cj9a-d1e71-Rd1e1234">infra, de vit. et honest. cler., quoniam</ref>.  Sicut augmentatis facultatibus plures possunt institui, etiam ultra numerum statutum, <ref xml:id="a9cj9a-d1e71-Rd1e1236">supra, de consti., cum M</ref>; arg. <ref xml:id="a9cj9a-d1e71-Rd1e1238">infra, de censib., quanto</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1240">21. dist., in novo</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1243">C. de episc. et cler., in ecclesiis</ref>.  De hoc dictum est <ref xml:id="a9cj9a-d1e71-Rd1e1245">supra, de consti., cum accessissent, dic ut ibi</ref>.  Arg. contra <ref xml:id="a9cj9a-d1e71-Rd1e1247">infra, de verb. sign., transmissae</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1250">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1252">Confirmatione</quote>
+          Sub forma communi impetrata, quia talis confirmatio nihil novi tribuit, <ref xml:id="a9cj9a-d1e71-Rd1e1254">infra, de confirm. util. vel inutil., cum dilecta § nos igitur, vers. nolentes</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1256">infra, de concess. praeben., quia diversitatem, in fi</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1258">infra, de privileg., ex parte abbatissae</ref>.  Quia qui confirmat, non donat, <ref xml:id="a9cj9a-d1e71-Rd1e1260">infra, de fide instrum., inter dilectos § caeterum</ref>.  Per tales confirmationes non intelligit Papa iuri alicuius derogare, <ref xml:id="a9cj9a-d1e71-Rd1e1263">infra, de offi. ord., licet § 1</ref>.  Quia inde non debet nasci iniuria, unde iura oriuntur, <ref xml:id="a9cj9a-d1e71-Rd1e1265">infra, de accusat., qualiter et quando 1</ref>; <ref xml:id="a9cj9a-d1e71-Rd1e1267">C. und. vi, meminerint</ref>.  Quando valet confirmatio Papae, et quando non, dictum est <ref xml:id="a9cj9a-d1e71-Rd1e1269">supra, de consti., cum accessissent</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1271">infra, de confirm. util. vel inutil., si quis</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1273">infra, de confirm. util. vel inutil., de confirmationibus</ref>.  Et obtenta fuit ista confirmatio tacita veritate de antiquo statuto, et quod facultates ecclesiae non essent diminutae.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1276">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1278">Personis idoneis</quote>
+          Hoc semper subintelligitur, <ref xml:id="a9cj9a-d1e71-Rd1e1280">infra, de elect., causam quae</ref>.  Talibus enim beneficia sunt conferenda, alias puniuntur dantes et recipientes, <ref xml:id="a9cj9a-d1e71-Rd1e1282">infra, de elect., nihil est</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1284">infra, de praeben., grave</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1287">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1289">Cum consilio</quote>
+          De hoc traditur <ref xml:id="a9cj9a-d1e71-Rd1e1291">infra, de elect., ne pro defectu</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1293">infra, de elect., cum in veteri</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1296">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1298">X 1.02.13 Quoniam constitutio Apostolicae</quote>
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1301">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1303">Adstringit</quote>
+          Cum sit iudex ordinarius omnium Christianorum, et mater omnium ecclesiarum, ut <ref xml:id="a9cj9a-d1e71-Rd1e1305">9. q. 3, cuncta per mundum</ref>.  Et si etiam aliquid grave percipiat, faciendum est, <ref xml:id="a9cj9a-d1e71-Rd1e1307">19. dist., in memoriam</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1309">100. dist., contra morem, in princ</ref>.  Et dic omnes, scilicet, de sua iurisdictione, quoniam potestates distinctae sunt, <ref xml:id="a9cj9a-d1e71-Rd1e1311">10. dist., quoniam</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1314">infra, de appell., si duobus</ref>; nisi forte ratione peccati, <ref xml:id="a9cj9a-d1e71-Rd1e1316">infra, de iudic., novit</ref>; arg. et omnes dignitates ordinis cuiuscumque ecclesia Romana constituit, <ref xml:id="a9cj9a-d1e71-Rd1e1318">22. dist., omnes</ref>.  Idem est in sententia Papae, quia sicut ipse iudicat, alii iudicare debent, <ref xml:id="a9cj9a-d1e71-Rd1e1320">infra, de re iudic., in causis</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1324">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1326">Ambiguum</quote>
+          Lex enim sive constitutio debet esse honesta et iusta, et nullam obscuritatem continere debet, et talis, ut traditur <ref xml:id="a9cj9a-d1e71-Rd1e1328">4. dist., erit autem</ref>.  Ne per obscuram constitutionem in laqueum incidamus, nemini enim debemus laqueum iniicere, <ref xml:id="a9cj9a-d1e71-Rd1e1330">27. q. 1, de viduis 2</ref>.  Nec debet nos inducere per legem obscuram vel dubiam ad id a quo nos cohibere debet, arg. <ref xml:id="a9cj9a-d1e71-Rd1e1332">infra, de nat. ex lib. ven., indecens</ref>.  Et qui me defendere debet, non debet me impugnare, <ref xml:id="a9cj9a-d1e71-Rd1e1334">ff. si serv. vend., altius</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1337">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1339">Declaramus</quote>
+          Bene dicit, declaramus, quia nullus alius posset eam declarare sive interpretari, quia ad eum pertinet constituere; <ref xml:id="a9cj9a-d1e71-Rd1e1341">infra, de sent. excom., inter alia § ut igitur</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1343">11. q. 1, clericum § ex his omnibus</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1345">C. de legi. et const., inter aequitatem</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1347">C. de legi. et const., si imperialis</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1350">ff. de praet. stipul., in praetoriis</ref>.  Et si super privilegia Apostolicae sedis quaestio oriatur, non vult Papa de ipsis per alios iudicari, <ref xml:id="a9cj9a-d1e71-Rd1e1352">infra, de iudic., cum venissent</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1355">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1357">Constitutionem</quote>
+          Quam habes <ref xml:id="a9cj9a-d1e71-Rd1e1359">infra, de maior. et obed., statuimus</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1362">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1364">Praeferendis</quote>
+          An plus debeant maiores minoribus percipere, dicemus super illa constitutione <ref xml:id="a9cj9a-d1e71-Rd1e1366">infra, de maior. et obed., statuimus</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1369">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1371">Consuetis servitiis</quote>
+          Quid debeant maiores minoribus tractatur tam in textu quam in glossa, <ref xml:id="a9cj9a-d1e71-Rd1e1373">93. dist., a subdiacono</ref>.  Et de hoc etiam dicemus in illa constitutione <ref xml:id="a9cj9a-d1e71-Rd1e1375">infra, de maior. et obed., statuimus</ref>.
+          </p>
+          <p xml:id="a9cj9a-d1e71-d1e1378">
+          <quote xml:id="a9cj9a-d1e71-Qd1e1380">Futura</quote>
+          Nota ergo constitutionem respicere futura tantum, et non praeterita; sic <ref xml:id="a9cj9a-d1e71-Rd1e1382">supra, de consti., cognoscentes</ref>; arg. <ref xml:id="a9cj9a-d1e71-Rd1e1384">31. dist., ante triennium</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1386">82. dist., proposuisti</ref>.  Nisi sit constitutio iuris naturalis, quae etiam respicit praeterita, <ref xml:id="a9cj9a-d1e71-Rd1e1388">infra, de usur., cum tu</ref>.  Vel nisi dicatur in ipsa constitutione quod ad praeterita trahatur, <ref xml:id="a9cj9a-d1e71-Rd1e1391">10. q. 1, sic quidam</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1393">infra, de elect., cum in cunctis § haec sane</ref>; et <ref xml:id="a9cj9a-d1e71-Rd1e1395">C. de legi. et const., leges 2</ref>.  et hic in fine, ubi dicitur, nisi de praeteritis, etc.; et <ref xml:id="a9cj9a-d1e71-Rd1e1397">infra, de rescript., ad audientiam 2</ref>.
+          </p>
+      </div>
+    </body>
+  </text>
+</TEI>
