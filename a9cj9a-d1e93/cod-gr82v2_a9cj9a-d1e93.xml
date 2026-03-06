@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a diplomatic edition.</p>
@@ -58,102 +56,102 @@
       <div xml:id="a9cj9a-d1e93">
         <head xml:id="a9cj9a-d1e71-Hd1e100">Titulus 4</head>
         <head xml:id="a9cj9a-d1e71-Hd1e102" type="question-title">De rescriptis</head>
-        <div>
-          <head>Caput 01</head>
-          <p>
-            <quote>Consuetudines</quote> Hoc capitulum intelligitur de onerosa consuetudine, et quae
-            multum laedit, et est radix extirpanda, <ref target="http://scta.info/resource/gd-p1d8-Dd1e153">8. dist., mala consuetudo</ref>; et <ref target="http://scta.info/resource/gd-p2c12q2-Dd1e1274">12. q. 2, bonae
-            rei</ref>; et <ref>12. dist., omnia.</ref> Nam consuetudo debet esse rationabilis et non contra
-            utilitatem ecclesiae, <ref>infra, de his quae fi. a maior. par. cap., cum in cunctis</ref>; et
-            <ref>infra, de re iudic., cum causa</ref>; et <ref target="http://scta.info/resource/cice-l1t4-Dd1e138">infra, de consuet., ad nostram</ref>; et infra, cum
-            venerabilis. Quando autem consuetudo praevaleat iuri, et quando non, dicetur <ref target="http://scta.info/resource/cice-l1t4-Dd1e260">infra, de
+        <div xml:id="a9cj9a-d1e93-Dd1e106">
+          <head xml:id="a9cj9a-d1e93-Hd1e108">Caput 01</head>
+          <p xml:id="a9cj9a-d1e93-d1e110">
+            <quote xml:id="a9cj9a-d1e93-Qd1e112">Consuetudines</quote> Hoc capitulum intelligitur de onerosa consuetudine, et quae
+            multum laedit, et est radix extirpanda, <ref xml:id="a9cj9a-d1e93-Rd1e114" target="http://scta.info/resource/gd-p1d8-Dd1e153">8. dist., mala consuetudo</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e117" target="http://scta.info/resource/gd-p2c12q2-Dd1e1274">12. q. 2, bonae
+            rei</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e120">12. dist., omnia.</ref> Nam consuetudo debet esse rationabilis et non contra
+            utilitatem ecclesiae, <ref xml:id="a9cj9a-d1e93-Rd1e122">infra, de his quae fi. a maior. par. cap., cum in cunctis</ref>; et
+            <ref xml:id="a9cj9a-d1e93-Rd1e125">infra, de re iudic., cum causa</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e127" target="http://scta.info/resource/cice-l1t4-Dd1e138">infra, de consuet., ad nostram</ref>; et infra, cum
+            venerabilis. Quando autem consuetudo praevaleat iuri, et quando non, dicetur <ref xml:id="a9cj9a-d1e93-Rd1e130" target="http://scta.info/resource/cice-l1t4-Dd1e260">infra, de
             consuet., cum tanto.
           </ref></p>
         </div>
-        <div>
-          <head>Caput 02</head>
-          <p>
-            <quote>Religiosis</quote> In his enim quae religiosis locis relinquuntur, non requiritur
-            solemnitas testamentorum, <ref target="http://scta.info/resource/cice-l3t26-Dd1e244">infra, de testamen., cum esses</ref>; et <ref>infra, de testamen.,
+        <div xml:id="a9cj9a-d1e93-Dd1e134">
+          <head xml:id="a9cj9a-d1e93-Hd1e136">Caput 02</head>
+          <p xml:id="a9cj9a-d1e93-d1e138">
+            <quote xml:id="a9cj9a-d1e93-Qd1e140">Religiosis</quote> In his enim quae religiosis locis relinquuntur, non requiritur
+            solemnitas testamentorum, <ref xml:id="a9cj9a-d1e93-Rd1e142" target="http://scta.info/resource/cice-l3t26-Dd1e244">infra, de testamen., cum esses</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e145">infra, de testamen.,
             relatum est 1</ref>; secundum canonicam aequitatem et favorem religionis.
           </p>
-          <p>
-            <quote>Consuetudinis</quote> Praedictae, quae laudabilis est, unde est servanda, <ref target="http://scta.info/resource/cice-l5t3-Dd1e730">infra,
+          <p xml:id="a9cj9a-d1e93-d1e148">
+            <quote xml:id="a9cj9a-d1e93-Qd1e150">Consuetudinis</quote> Praedictae, quae laudabilis est, unde est servanda, <ref xml:id="a9cj9a-d1e93-Rd1e152" target="http://scta.info/resource/cice-l5t3-Dd1e730">infra,
             de simon., ad Apostolicam.</ref> Ex quo aeque puniri debet transgressor laudabilis
-            consuetudinis, sicut transgressor legis, <ref target="http://scta.info/resource/gd-p1d11-Dd1e207">11. dist., in his.</ref> Huiusmodi donatio valeret,
+            consuetudinis, sicut transgressor legis, <ref xml:id="a9cj9a-d1e93-Rd1e155" target="http://scta.info/resource/gd-p1d11-Dd1e207">11. dist., in his.</ref> Huiusmodi donatio valeret,
             etiam si consuetudo super hoc non esset.
           </p>
-          <p>
-            <quote>Signum</quote> Sic annulus signum est investiturae, <ref>infra, de his quae fi. a
-            maior. par. cap., ex ore.</ref> Et investitura est signum traditae possessionis, <ref target="http://scta.info/resource/cice-l3t24-Dd1e169">infra, de
-            dona., per tuas.</ref> Item annulus est signum matrimonii, <ref target="http://scta.info/resource/cice-l2t23-Dd1e260">infra, de praesump., illud</ref>; et <ref target="http://scta.info/resource/gd-p2c30q5-Dd1e204">30.
-            q. 5, feminae.</ref> Sic etiam restitutio instrumentorum est signum renunciationis, <ref>infra, de
-            renunciat., sane</ref>; et <ref target="http://scta.info/resource/cice-l1t35-Dd1e153">infra, de pact., cum pridem</ref>; et C. quae res pign. oblig. poss., cum
-            constet; et melius, <ref target="http://scta.info/resource/bgy6gt-d1e455-Dd1e127">ff. de pacti., Labeo.</ref> Secus est si restituat pignus, <ref target="http://scta.info/resource/bgy6gt-d1e455-Dd1e140">ff. de pacti.,
+          <p xml:id="a9cj9a-d1e93-d1e159">
+            <quote xml:id="a9cj9a-d1e93-Qd1e161">Signum</quote> Sic annulus signum est investiturae, <ref xml:id="a9cj9a-d1e93-Rd1e163">infra, de his quae fi. a
+            maior. par. cap., ex ore.</ref> Et investitura est signum traditae possessionis, <ref xml:id="a9cj9a-d1e93-Rd1e165" target="http://scta.info/resource/cice-l3t24-Dd1e169">infra, de
+            dona., per tuas.</ref> Item annulus est signum matrimonii, <ref xml:id="a9cj9a-d1e93-Rd1e168" target="http://scta.info/resource/cice-l2t23-Dd1e260">infra, de praesump., illud</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e171" target="http://scta.info/resource/gd-p2c30q5-Dd1e204">30.
+            q. 5, feminae.</ref> Sic etiam restitutio instrumentorum est signum renunciationis, <ref xml:id="a9cj9a-d1e93-Rd1e175">infra, de
+            renunciat., sane</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e177" target="http://scta.info/resource/cice-l1t35-Dd1e153">infra, de pact., cum pridem</ref>; et C. quae res pign. oblig. poss., cum
+            constet; et melius, <ref xml:id="a9cj9a-d1e93-Rd1e180" target="http://scta.info/resource/bgy6gt-d1e455-Dd1e127">ff. de pacti., Labeo.</ref> Secus est si restituat pignus, <ref xml:id="a9cj9a-d1e93-Rd1e183" target="http://scta.info/resource/bgy6gt-d1e455-Dd1e140">ff. de pacti.,
             postquam.</ref> Sic etiam res non apprehenditur, et tamen possessio transfertur, ut per
-            claves, <ref target="http://scta.info/resource/bgy6gt-d1e1509-Dd1e1014">ff. de acq. poss., clavibus.</ref> Item per instrumentum fit donatio, <ref target="http://scta.info/resource/azsw2e-d1e5549-Dd1e106">C. de donation.,
-            emptionum.</ref> Visu etiam transfertur possessio, <ref target="http://scta.info/resource/bgy6gt-d1e3441-Dd1e481">ff. de acq. poss., quod meo § si
-            venditorem.</ref> Item si rem meam penes te depositam tibi vendidi, <ref>Inst. de rerum div. §
-            interdum.</ref> Item cum quis etiam rem suam vult possidere nomine alterius, <ref target="http://scta.info/resource/bgy6gt-d1e736-Dd1e997">ff. de rei vend.,
+            claves, <ref xml:id="a9cj9a-d1e93-Rd1e186" target="http://scta.info/resource/bgy6gt-d1e1509-Dd1e1014">ff. de acq. poss., clavibus.</ref> Item per instrumentum fit donatio, <ref xml:id="a9cj9a-d1e93-Rd1e189" target="http://scta.info/resource/azsw2e-d1e5549-Dd1e106">C. de donation.,
+            emptionum.</ref> Visu etiam transfertur possessio, <ref xml:id="a9cj9a-d1e93-Rd1e193" target="http://scta.info/resource/bgy6gt-d1e3441-Dd1e481">ff. de acq. poss., quod meo § si
+            venditorem.</ref> Item si rem meam penes te depositam tibi vendidi, <ref xml:id="a9cj9a-d1e93-Rd1e196">Inst. de rerum div. §
+            interdum.</ref> Item cum quis etiam rem suam vult possidere nomine alterius, <ref xml:id="a9cj9a-d1e93-Rd1e198" target="http://scta.info/resource/bgy6gt-d1e736-Dd1e997">ff. de rei vend.,
             quaedam.</ref> Nec etiam semper in acquirenda possessione necessarius est actus corporalis,
-            unde sufficit affectus aliquo actu interveniente, <ref>ff. de acq. poss., possessio appellata
+            unde sufficit affectus aliquo actu interveniente, <ref xml:id="a9cj9a-d1e93-Rd1e201">ff. de acq. poss., possessio appellata
             § antepe., et hic, licet lex dicat quod possessio acquiritur corpore et animo, non
             altero tantum, C. de acq. poss., licet.</ref> Ita quod rei apprehensio per se vel per alterum
-            sit necessaria, <ref target="http://scta.info/resource/bgy6gt-d1e3441-Dd1e323">ff. de acq. poss., quemadmodum</ref>; et <ref target="http://scta.info/resource/bgy6gt-d1e3441-Dd1e640">ff. de acq. poss., qui universas.</ref> Hoc
+            sit necessaria, <ref xml:id="a9cj9a-d1e93-Rd1e203" target="http://scta.info/resource/bgy6gt-d1e3441-Dd1e323">ff. de acq. poss., quemadmodum</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e206" target="http://scta.info/resource/bgy6gt-d1e3441-Dd1e640">ff. de acq. poss., qui universas.</ref> Hoc
             tamen scias quod licet ecclesia non apprehendat possessionem rei sibi collatae, dominium
-            tamen nihilominus adipiscitur, quod non est in privato, <ref target="http://scta.info/resource/azsw2e-d1e1700-Dd1e391">C. de rei vend., servum</ref>; <ref>C. de
+            tamen nihilominus adipiscitur, quod non est in privato, <ref xml:id="a9cj9a-d1e93-Rd1e210" target="http://scta.info/resource/azsw2e-d1e1700-Dd1e391">C. de rei vend., servum</ref>; <ref xml:id="a9cj9a-d1e93-Rd1e213">C. de
             sacro. eccl., ut inter divinum.</ref> Unde versus: visu sive rei mutuatae venditione //
             clavibus et chartis mea si conduco scienter // quamvis non aliter detur possessio
             transit.
           </p>
         </div>
-        <div>
-          <head>Caput 03</head>
-          <p>
-            <quote>Insipientibus</quote> Id est, minus sapientibus. Nec istud est inconveniens, quia
-            quandoque revelatur minori quod maior nescit, <ref>C. de off. rect. prov., potiores</ref>; et <ref target="http://scta.info/resource/gd-p1d95-Dd1e216">95.
-            dist., esto subiectus, in fi.</ref>; et <ref target="http://scta.info/resource/gd-p2c24q3-Dd1e115">24. q. 3, si habes.</ref> Ber.
+        <div xml:id="a9cj9a-d1e93-Dd1e217">
+          <head xml:id="a9cj9a-d1e93-Hd1e219">Caput 03</head>
+          <p xml:id="a9cj9a-d1e93-d1e221">
+            <quote xml:id="a9cj9a-d1e93-Qd1e223">Insipientibus</quote> Id est, minus sapientibus. Nec istud est inconveniens, quia
+            quandoque revelatur minori quod maior nescit, <ref xml:id="a9cj9a-d1e93-Rd1e225">C. de off. rect. prov., potiores</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e227" target="http://scta.info/resource/gd-p1d95-Dd1e216">95.
+            dist., esto subiectus, in fi.</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e230" target="http://scta.info/resource/gd-p2c24q3-Dd1e115">24. q. 3, si habes.</ref> Ber.
           </p>
-          <p>
-            <quote>Quaeritur</quote> Non prohibetur hic quin a pluribus requiratur, quia facilius
-            invenitur quod a pluribus et sapientibus quaeritur, <ref target="http://scta.info/resource/gd-p1d20-Dd1e146">20. dist., de quibus</ref>; <ref target="http://scta.info/resource/azsw2e-d1e3896-Dd1e439">C. de
+          <p xml:id="a9cj9a-d1e93-d1e234">
+            <quote xml:id="a9cj9a-d1e93-Qd1e236">Quaeritur</quote> Non prohibetur hic quin a pluribus requiratur, quia facilius
+            invenitur quod a pluribus et sapientibus quaeritur, <ref xml:id="a9cj9a-d1e93-Rd1e238" target="http://scta.info/resource/gd-p1d20-Dd1e146">20. dist., de quibus</ref>; <ref xml:id="a9cj9a-d1e93-Rd1e241" target="http://scta.info/resource/azsw2e-d1e3896-Dd1e439">C. de
             fideicomm., quaestionem, ad fi.</ref> Quoniam illiterati quandoque habent causarum peritiam,
-            <ref target="http://scta.info/resource/azsw2e-d1e1354-Dd1e322">C. de iud., certi iuris</ref>; et <ref>in Auth. de iudicib. § quia vero, coll. 6.</ref> Sed hoc solum
+            <ref xml:id="a9cj9a-d1e93-Rd1e244" target="http://scta.info/resource/azsw2e-d1e1354-Dd1e322">C. de iud., certi iuris</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e247">in Auth. de iudicib. § quia vero, coll. 6.</ref> Sed hoc solum
             reprobatur hic quod eorum responsum pro sententia teneatur, cum alias sententia a non
-            suo iudice lata sit nulla, C. si a non comp. iud., et in privatorum; et <ref>infra, de
+            suo iudice lata sit nulla, C. si a non comp. iud., et in privatorum; et <ref xml:id="a9cj9a-d1e93-Rd1e250">infra, de
             iudic., at si clerici.
           </ref></p>
-          <p>
-            <quote>Canonicis</quote> Et sic non valet consuetudo contra canonicam constitutionem,
-            <ref target="http://scta.info/resource/cice-l1t23-Dd1e153">infra, de offi. archidiac., cum satis</ref>; <ref>infra, de re iudic., cum causa</ref>; et quae gravamen
-            inducit, <ref>supra, de consuet., consuetudines.</ref> Arg. contra, <ref target="http://scta.info/resource/cice-l2t12-Dd1e138">infra, de cau. poss., cum
-            ecclesia Sutrina</ref>; et <ref target="http://scta.info/resource/bgy6gt-d1e2093-Dd1e598">ff. de admin. tut., sine herede § penulti.</ref> Ista contrarietas
-            expedietur, <ref target="http://scta.info/resource/cice-l1t4-Dd1e244">infra, de consuet., ex parte</ref>; et <ref>infra, de consuet., cum tanto.
+          <p xml:id="a9cj9a-d1e93-d1e252">
+            <quote xml:id="a9cj9a-d1e93-Qd1e254">Canonicis</quote> Et sic non valet consuetudo contra canonicam constitutionem,
+            <ref xml:id="a9cj9a-d1e93-Rd1e256" target="http://scta.info/resource/cice-l1t23-Dd1e153">infra, de offi. archidiac., cum satis</ref>; <ref xml:id="a9cj9a-d1e93-Rd1e259">infra, de re iudic., cum causa</ref>; et quae gravamen
+            inducit, <ref xml:id="a9cj9a-d1e93-Rd1e261">supra, de consuet., consuetudines.</ref> Arg. contra, <ref xml:id="a9cj9a-d1e93-Rd1e263" target="http://scta.info/resource/cice-l2t12-Dd1e138">infra, de cau. poss., cum
+            ecclesia Sutrina</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e267" target="http://scta.info/resource/bgy6gt-d1e2093-Dd1e598">ff. de admin. tut., sine herede § penulti.</ref> Ista contrarietas
+            expedietur, <ref xml:id="a9cj9a-d1e93-Rd1e270" target="http://scta.info/resource/cice-l1t4-Dd1e244">infra, de consuet., ex parte</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e273">infra, de consuet., cum tanto.
           </ref></p>
-          <p>
-            <quote>Iudice</quote> Sic <ref>2. q. 1, in primis</ref>; <ref>infra, de iudic., at si clerici</ref>; <ref target="http://scta.info/resource/cice-l3t29-Dd1e138">infra, de
+          <p xml:id="a9cj9a-d1e93-d1e275">
+            <quote xml:id="a9cj9a-d1e93-Qd1e277">Iudice</quote> Sic <ref xml:id="a9cj9a-d1e93-Rd1e279">2. q. 1, in primis</ref>; <ref xml:id="a9cj9a-d1e93-Rd1e281">infra, de iudic., at si clerici</ref>; <ref xml:id="a9cj9a-d1e93-Rd1e283" target="http://scta.info/resource/cice-l3t29-Dd1e138">infra, de
             paroch., nullus</ref>; et C. si a non comp. iud., si militaris; et C. si a non comp. iud., si
-            de proprietate. Et hoc verum est nisi in causa reconventionis, ut <ref target="http://scta.info/resource/gd-p2c3q8-Dd1e109">3. q. 8, accusatores §
-            cuius in agendo.</ref> Vel nisi ex certa scientia aliquis consentiat in iudicem non suum, <ref target="http://scta.info/resource/bgy6gt-d1e310-Dd1e271">ff.
-            de iuris., si per errorem</ref>; et <ref target="http://scta.info/resource/bgy6gt-d1e662-Dd1e114">ff. de iud., consensisse</ref>; vel nisi vocatus venire
-            contemnat, <ref target="http://scta.info/resource/cice-l2t28-Dd1e199">infra, de appell., si duobus.</ref> Sed hoc non habet locum in clericis, qui non
-            possunt in alium iudicem consentire sine licentia sui praelati vel iudicis, <ref target="http://scta.info/resource/cice-l2t2-Dd1e275">infra, de
-            for. compet., si diligenti</ref>; et <ref target="http://scta.info/resource/cice-l2t2-Dd1e366">infra, de for. compet., significasti, ubi de hoc dicetur.
+            de proprietate. Et hoc verum est nisi in causa reconventionis, ut <ref xml:id="a9cj9a-d1e93-Rd1e286" target="http://scta.info/resource/gd-p2c3q8-Dd1e109">3. q. 8, accusatores §
+            cuius in agendo.</ref> Vel nisi ex certa scientia aliquis consentiat in iudicem non suum, <ref xml:id="a9cj9a-d1e93-Rd1e290" target="http://scta.info/resource/bgy6gt-d1e310-Dd1e271">ff.
+            de iuris., si per errorem</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e293" target="http://scta.info/resource/bgy6gt-d1e662-Dd1e114">ff. de iud., consensisse</ref>; vel nisi vocatus venire
+            contemnat, <ref xml:id="a9cj9a-d1e93-Rd1e296" target="http://scta.info/resource/cice-l2t28-Dd1e199">infra, de appell., si duobus.</ref> Sed hoc non habet locum in clericis, qui non
+            possunt in alium iudicem consentire sine licentia sui praelati vel iudicis, <ref xml:id="a9cj9a-d1e93-Rd1e299" target="http://scta.info/resource/cice-l2t2-Dd1e275">infra, de
+            for. compet., si diligenti</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e302" target="http://scta.info/resource/cice-l2t2-Dd1e366">infra, de for. compet., significasti, ubi de hoc dicetur.
           </ref></p>
         </div>
-        <div>
-          <head>Caput 04</head>
-          <p>
-            <quote>Reservata</quote> <ref>de conse. dist. 5, manus</ref>; et <ref>de conse. dist. 5, de his</ref>; <ref>68.
-            dist., quamvis corepiscopi.</ref> Arg. contra, <ref>45. dist., pervenit, ubi presbyteri chrismabant
+        <div xml:id="a9cj9a-d1e93-Dd1e307">
+          <head xml:id="a9cj9a-d1e93-Hd1e309">Caput 04</head>
+          <p xml:id="a9cj9a-d1e93-d1e311">
+            <quote xml:id="a9cj9a-d1e93-Qd1e313">Reservata</quote> <ref xml:id="a9cj9a-d1e93-Rd1e315">de conse. dist. 5, manus</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e317">de conse. dist. 5, de his</ref>; <ref xml:id="a9cj9a-d1e93-Rd1e319">68.
+            dist., quamvis corepiscopi.</ref> Arg. contra, <ref xml:id="a9cj9a-d1e93-Rd1e321">45. dist., pervenit, ubi presbyteri chrismabant
             in fronte.</ref> Sed illud ad tempus Gregorii concessit propter scandalum de speciali
             indulgentia, et isti sacerdotes nihil conferebant, ut dicit in fine, quia hoc ex
             delegatione Papae non faciebant, et ideo pro non dato habetur, quod ab illo donatur qui
-            de iure donare non potest, <ref target="http://scta.info/resource/cice-l3t38-Dd1e169">infra, de iure patron., quod autem, in fi.</ref>; et <ref target="http://scta.info/resource/gd-p2c1q7-Dd1e476">1. q. 7,
-            Daibertum</ref>; et <ref>C. de legi. et const., non dubium.</ref> Arg. contra <ref target="http://scta.info/resource/cice-l1t16-Dd1e108">infra, de sacram. non
+            de iure donare non potest, <ref xml:id="a9cj9a-d1e93-Rd1e324" target="http://scta.info/resource/cice-l3t38-Dd1e169">infra, de iure patron., quod autem, in fi.</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e327" target="http://scta.info/resource/gd-p2c1q7-Dd1e476">1. q. 7,
+            Daibertum</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e330">C. de legi. et const., non dubium.</ref> Arg. contra <ref xml:id="a9cj9a-d1e93-Rd1e332" target="http://scta.info/resource/cice-l1t16-Dd1e108">infra, de sacram. non
             iter., pastoralis.</ref> Sed ibi collatum fuit sacramentum ab eo qui potuit, sed mandatur
             solummodo suppleri, quod fuerat praetermissum. Sed numquid Papa posset hoc delegare
-            sacerdotibus? Videtur quod sic, per illud capitulo <ref>45. dist., pervenit.</ref> Alias Gregorius
+            sacerdotibus? Videtur quod sic, per illud capitulo <ref xml:id="a9cj9a-d1e93-Rd1e335">45. dist., pervenit.</ref> Alias Gregorius
             decepisset eos. Sed si Papa prohiberet sacerdotem chrismare, post prohibitionem suam
             nihil conferret, si postea chrismaret. Episcopi vero, licet ipsi possint chrismare, non
             possunt aliis inferioribus demandare, qui hoc ex officio facere non possunt. Sed alii
@@ -161,182 +159,182 @@
             licentia. Episcopi enim ea quae sunt iurisdictionis, ut puta iudicare, excommunicare, et
             similia, committere possunt aliis etiam non habentibus iurisdictionem. Ea vero quae sunt
             ordinis episcopalis et auctoritatis, non possunt demandare, aut etiam delegare aliis qui
-            sunt inferioris gradus, <ref target="http://scta.info/resource/cice-l3t40-Dd1e229">infra, de consecr. eccl. vel alt., aqua.</ref> Arg. huius decretalis
+            sunt inferioris gradus, <ref xml:id="a9cj9a-d1e93-Rd1e337" target="http://scta.info/resource/cice-l3t40-Dd1e229">infra, de consecr. eccl. vel alt., aqua.</ref> Arg. huius decretalis
             videtur quod Papa non possit hoc delegare simplici sacerdoti. Sed Papa non subiicitur
-            legibus, <ref target="http://scta.info/resource/bgy6gt-d1e81-Dd1e425">ff. de legib., princeps</ref>; <ref target="http://scta.info/resource/gd-p2c9q3-Dd1e370">9. q. 3, cuncta.</ref> Unde potest committere simplici
-            sacerdoti, ut in dicto capitulo <ref>45. dist., pervenit.
+            legibus, <ref xml:id="a9cj9a-d1e93-Rd1e341" target="http://scta.info/resource/bgy6gt-d1e81-Dd1e425">ff. de legib., princeps</ref>; <ref xml:id="a9cj9a-d1e93-Rd1e344" target="http://scta.info/resource/gd-p2c9q3-Dd1e370">9. q. 3, cuncta.</ref> Unde potest committere simplici
+            sacerdoti, ut in dicto capitulo <ref xml:id="a9cj9a-d1e93-Rd1e347">45. dist., pervenit.
           </ref></p>
-          <p>
-            <quote>Ad excusandas</quote> <ref>16. q. 1, praedictor.
+          <p xml:id="a9cj9a-d1e93-d1e349">
+            <quote xml:id="a9cj9a-d1e93-Qd1e351">Ad excusandas</quote> <ref xml:id="a9cj9a-d1e93-Rd1e353">16. q. 1, praedictor.
           </ref></p>
-          <p>
-            <quote>Consuetudinem</quote> Et male, unde dixit Martinus Zamorensis: Composito lacte
+          <p xml:id="a9cj9a-d1e93-d1e355">
+            <quote xml:id="a9cj9a-d1e93-Qd1e357">Consuetudinem</quote> Et male, unde dixit Martinus Zamorensis: Composito lacte
             foetenti quaeso cibate, qui putas exclusum crimen per temporis usum. Et hoc verum est
-            ubi consuetudo non est praescriptabilis, <ref target="http://scta.info/resource/cice-l5t3-Dd1e214">infra, de simon., non satis</ref>; et <ref target="http://scta.info/resource/cice-l4t7-Dd1e169">infra, de eo
-            qui dux. in matr. quam pol. per adult., cum haberet</ref>; <ref>32. q. 7, flagitia.</ref> Et non debet
-            esse melior conditio furis propter furti continuationem, <ref>ff. de fur., inficiando §
+            ubi consuetudo non est praescriptabilis, <ref xml:id="a9cj9a-d1e93-Rd1e359" target="http://scta.info/resource/cice-l5t3-Dd1e214">infra, de simon., non satis</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e362" target="http://scta.info/resource/cice-l4t7-Dd1e169">infra, de eo
+            qui dux. in matr. quam pol. per adult., cum haberet</ref>; <ref xml:id="a9cj9a-d1e93-Rd1e365">32. q. 7, flagitia.</ref> Et non debet
+            esse melior conditio furis propter furti continuationem, <ref xml:id="a9cj9a-d1e93-Rd1e367">ff. de fur., inficiando §
             infans.
           </ref></p>
-          <p>
-            <quote>Ex necessitate</quote> In hoc fuit necessitas, quia cum civitas
+          <p xml:id="a9cj9a-d1e93-d1e369">
+            <quote xml:id="a9cj9a-d1e93-Qd1e371">Ex necessitate</quote> In hoc fuit necessitas, quia cum civitas
             Constantinopolitana capta esset a Venetis et aliis Latinis, pauci episcopi et presbyteri
             Latini erant ibi qui hoc facerent. Et ideo isti sacerdotes hoc faciebant, et Graeci non
             chrismabant in fronte, et in multis aliis discordabant a Romana ecclesia, a cuius
-            obedientia se subtraxerant, <ref target="http://scta.info/resource/cice-l1t33-Dd1e214">infra, de maior. et obed., inter quatuor</ref>; et <ref target="http://scta.info/resource/cice-l3t42-Dd1e184">infra, de bapt.
+            obedientia se subtraxerant, <ref xml:id="a9cj9a-d1e93-Rd1e373" target="http://scta.info/resource/cice-l1t33-Dd1e214">infra, de maior. et obed., inter quatuor</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e376" target="http://scta.info/resource/cice-l3t42-Dd1e184">infra, de bapt.
             et eius effect., licet.
           </ref></p>
-          <p>
-            <quote>Omittere</quote> Sic enim de corpore Christi fieri debet, <ref>24. q. 1, coepit.</ref> Sed
+          <p xml:id="a9cj9a-d1e93-d1e380">
+            <quote xml:id="a9cj9a-d1e93-Qd1e382">Omittere</quote> Sic enim de corpore Christi fieri debet, <ref xml:id="a9cj9a-d1e93-Rd1e384">24. q. 1, coepit.</ref> Sed
             in baptismo quod est ianua omnium sacramentorum, secus est. Melius enim ab haeretico
-            illud recipere, quam sine illo decedere, dum tamen in forma ecclesiae conferatur, <ref target="http://scta.info/resource/gd-p2c24q1-Dd1e724">24. q.
-            1, si quem forte</ref>; et <ref target="http://scta.info/resource/cice-l1t1-Dd1e108">supra, de summ. trin. et fid. cath., firmiter, in fi.
+            illud recipere, quam sine illo decedere, dum tamen in forma ecclesiae conferatur, <ref xml:id="a9cj9a-d1e93-Rd1e386" target="http://scta.info/resource/gd-p2c24q1-Dd1e724">24. q.
+            1, si quem forte</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e389" target="http://scta.info/resource/cice-l1t1-Dd1e108">supra, de summ. trin. et fid. cath., firmiter, in fi.
           </ref></p>
         </div>
-        <div>
-          <head>Caput 05</head>
-          <p>
-            <quote>Interdictum</quote> Quod dicatur generale interdictum habetur <ref target="http://scta.info/resource/cice-l5t40-Dd1e351">infra, de verb.
+        <div xml:id="a9cj9a-d1e93-Dd1e393">
+          <head xml:id="a9cj9a-d1e93-Hd1e395">Caput 05</head>
+          <p xml:id="a9cj9a-d1e93-d1e397">
+            <quote xml:id="a9cj9a-d1e93-Qd1e399">Interdictum</quote> Quod dicatur generale interdictum habetur <ref xml:id="a9cj9a-d1e93-Rd1e401" target="http://scta.info/resource/cice-l5t40-Dd1e351">infra, de verb.
             sign., cum in partibus.
           </ref></p>
-          <p>
-            <quote>De consuetudine</quote> Nota quod nec praescriptio nec consuetudo prodest in hoc
-            casu, ut hic dicit, et est simile <ref target="http://scta.info/resource/cice-l1t6-Dd1e497">infra, de elect., cum causam</ref>; et <ref target="http://scta.info/resource/cice-l1t4-Dd1e199">infra, de consuet.,
-            cum venerabilis.</ref> Nec contra obedientiam, ut <ref target="http://scta.info/resource/gd-p2c18q2-Dd1e372">18. q. 2, abbatibus</ref>; et <ref>infra, de
+          <p xml:id="a9cj9a-d1e93-d1e404">
+            <quote xml:id="a9cj9a-d1e93-Qd1e406">De consuetudine</quote> Nota quod nec praescriptio nec consuetudo prodest in hoc
+            casu, ut hic dicit, et est simile <ref xml:id="a9cj9a-d1e93-Rd1e408" target="http://scta.info/resource/cice-l1t6-Dd1e497">infra, de elect., cum causam</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e411" target="http://scta.info/resource/cice-l1t4-Dd1e199">infra, de consuet.,
+            cum venerabilis.</ref> Nec contra obedientiam, ut <ref xml:id="a9cj9a-d1e93-Rd1e414" target="http://scta.info/resource/gd-p2c18q2-Dd1e372">18. q. 2, abbatibus</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e417">infra, de
             praescrip., cum non liceat.</ref> Nec contra procurationem, quae ratione visitationis debetur,
-            <ref target="http://scta.info/resource/cice-l2t26-Dd1e335">infra, de praescrip., cum ex officii.</ref> Sicut nec valet transactio in hoc casu, et in
-            huiusmodi spiritualibus, <ref target="http://scta.info/resource/cice-l1t36-Dd1e229">infra, de transact., praeterea quando.</ref> Nec permutatio rei
-            spiritualis potest fieri cum temporali, <ref target="http://scta.info/resource/cice-l3t19-Dd1e229">infra, de rerum perm., exhibita.</ref> Arg. contra
-            <ref target="http://scta.info/resource/cice-l5t33-Dd1e305">infra, de privileg., cum olim propter</ref>; et <ref target="http://scta.info/resource/cice-l3t37-Dd1e123">infra, de capell. monach., dilectus</ref>; et <ref target="http://scta.info/resource/cice-l3t39-Dd1e305">infra,
-            de censib., sopitae</ref>; et <ref target="http://scta.info/resource/cice-l2t26-Dd1e153">infra, de praescrip., de quarta</ref>; et <ref target="http://scta.info/resource/cice-l2t26-Dd1e320">infra, de praescrip.,
+            <ref xml:id="a9cj9a-d1e93-Rd1e420" target="http://scta.info/resource/cice-l2t26-Dd1e335">infra, de praescrip., cum ex officii.</ref> Sicut nec valet transactio in hoc casu, et in
+            huiusmodi spiritualibus, <ref xml:id="a9cj9a-d1e93-Rd1e423" target="http://scta.info/resource/cice-l1t36-Dd1e229">infra, de transact., praeterea quando.</ref> Nec permutatio rei
+            spiritualis potest fieri cum temporali, <ref xml:id="a9cj9a-d1e93-Rd1e426" target="http://scta.info/resource/cice-l3t19-Dd1e229">infra, de rerum perm., exhibita.</ref> Arg. contra
+            <ref xml:id="a9cj9a-d1e93-Rd1e429" target="http://scta.info/resource/cice-l5t33-Dd1e305">infra, de privileg., cum olim propter</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e432" target="http://scta.info/resource/cice-l3t37-Dd1e123">infra, de capell. monach., dilectus</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e435" target="http://scta.info/resource/cice-l3t39-Dd1e305">infra,
+            de censib., sopitae</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e439" target="http://scta.info/resource/cice-l2t26-Dd1e153">infra, de praescrip., de quarta</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e442" target="http://scta.info/resource/cice-l2t26-Dd1e320">infra, de praescrip.,
             auditis.</ref> Non sunt contraria, ibi non praescribitur contra obedientiam, nisi tanto
             tempore fuissent sub dominio Papae vel alterius ecclesiae. Et tunc non dicuntur
-            praescribere, sed potius praescribi. Et praeterea illa <ref target="http://scta.info/resource/cice-l2t26-Dd1e153">infra, de praescrip., de quarta</ref>;
-            et illa <ref target="http://scta.info/resource/cice-l2t26-Dd1e320">infra, de praescrip., auditis, nihil dicunt de obedientia, sed in aliis
+            praescribere, sed potius praescribi. Et praeterea illa <ref xml:id="a9cj9a-d1e93-Rd1e445" target="http://scta.info/resource/cice-l2t26-Dd1e153">infra, de praescrip., de quarta</ref>;
+            et illa <ref xml:id="a9cj9a-d1e93-Rd1e448" target="http://scta.info/resource/cice-l2t26-Dd1e320">infra, de praescrip., auditis, nihil dicunt de obedientia, sed in aliis
             articulis et casibus loquuntur.</ref> Et sic patet quod ubicumque sit aliquid contra
             ecclesiasticam disciplinam sive nervum ecclesiae, non habet locum praescriptio.
           </p>
         </div>
-        <div>
-          <head>Caput 06</head>
-          <p>
-            <quote>Statuere</quote> Et sic onerosam dignitatem potest episcopus removere de ecclesia
-            sua cum suis canonicis, dum tamen confirmatio Papae accedat, <ref target="http://scta.info/resource/cice-l1t2-Dd1e214">supra, de consti., cum
+        <div xml:id="a9cj9a-d1e93-Dd1e453">
+          <head xml:id="a9cj9a-d1e93-Hd1e455">Caput 06</head>
+          <p xml:id="a9cj9a-d1e93-d1e457">
+            <quote xml:id="a9cj9a-d1e93-Qd1e459">Statuere</quote> Et sic onerosam dignitatem potest episcopus removere de ecclesia
+            sua cum suis canonicis, dum tamen confirmatio Papae accedat, <ref xml:id="a9cj9a-d1e93-Rd1e461" target="http://scta.info/resource/cice-l1t2-Dd1e214">supra, de consti., cum
             accessissent.
           </ref></p>
-          <p>
-            <quote>Concessimus</quote> Per hoc videtur quod nova dignitas in ecclesia constitui non
-            potest sine licentia Papae, <ref>22. dist., omnes</ref>; et <ref>C. de off. praef. praet.</ref> Afric., quas
+          <p xml:id="a9cj9a-d1e93-d1e464">
+            <quote xml:id="a9cj9a-d1e93-Qd1e466">Concessimus</quote> Per hoc videtur quod nova dignitas in ecclesia constitui non
+            potest sine licentia Papae, <ref xml:id="a9cj9a-d1e93-Rd1e468">22. dist., omnes</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e470">C. de off. praef. praet.</ref> Afric., quas
             gratias § optamus. Ergo ut omnes iudices secundum voluntatem et timorem Dei, et nostram
             electionem et ordinationem, etc. Et hoc ideo, quia si una dignitas constituitur, oportet
-            quod alia minuatur, arg. <ref>99. dist., nullus</ref>; et <ref target="http://scta.info/resource/gd-p1d99-Dd1e125">99. dist., nulli.</ref> Sed hoc non est verum.
-            Arg. <ref target="http://scta.info/resource/cice-l3t48-Dd1e169">infra, de eccl. aedif., ad audientiam 2</ref>; et <ref target="http://scta.info/resource/gd-p2c12q2-Dd1e1274">12. q. 2, bonae rei</ref>; et <ref target="http://scta.info/resource/bgy6gt-d1e5080-Dd1e133">ff. de oper.
-            pub., opus.</ref> Item datur privilegium dignitati, sed non est contra illud, <ref target="http://scta.info/resource/cice-l3t48-Dd1e169">infra, de eccl.
-            aedif., ad audientiam 2</ref>; et <ref target="http://scta.info/resource/cice-l1t3-Dd1e745">supra, de rescript., quia nonnulli.</ref> Sicut nec servitus datur
-            praedio quod nondum est, <ref target="http://scta.info/resource/bgy6gt-d1e926-Dd1e104">ff. comm. praed., actiones.</ref> Arg. contra <ref>ff. de servitu. rust.
-            praed., Labeo</ref>; et <ref target="http://scta.info/resource/bgy6gt-d1e892-Dd1e377">ff. de servitu. urb. praed., si servitus § futuro.</ref> Sed non procedunt
+            quod alia minuatur, arg. <ref xml:id="a9cj9a-d1e93-Rd1e472">99. dist., nullus</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e474" target="http://scta.info/resource/gd-p1d99-Dd1e125">99. dist., nulli.</ref> Sed hoc non est verum.
+            Arg. <ref xml:id="a9cj9a-d1e93-Rd1e478" target="http://scta.info/resource/cice-l3t48-Dd1e169">infra, de eccl. aedif., ad audientiam 2</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e481" target="http://scta.info/resource/gd-p2c12q2-Dd1e1274">12. q. 2, bonae rei</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e484" target="http://scta.info/resource/bgy6gt-d1e5080-Dd1e133">ff. de oper.
+            pub., opus.</ref> Item datur privilegium dignitati, sed non est contra illud, <ref xml:id="a9cj9a-d1e93-Rd1e487" target="http://scta.info/resource/cice-l3t48-Dd1e169">infra, de eccl.
+            aedif., ad audientiam 2</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e490" target="http://scta.info/resource/cice-l1t3-Dd1e745">supra, de rescript., quia nonnulli.</ref> Sicut nec servitus datur
+            praedio quod nondum est, <ref xml:id="a9cj9a-d1e93-Rd1e493" target="http://scta.info/resource/bgy6gt-d1e926-Dd1e104">ff. comm. praed., actiones.</ref> Arg. contra <ref xml:id="a9cj9a-d1e93-Rd1e497">ff. de servitu. rust.
+            praed., Labeo</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e499" target="http://scta.info/resource/bgy6gt-d1e892-Dd1e377">ff. de servitu. urb. praed., si servitus § futuro.</ref> Sed non procedunt
             ista, quia non datur privilegium dignitati quae nondum est, sed dat Papa auctoritatem
             constituendi dignitatem ecclesiae Londonensi. Inno. iiii dixit in apparatu suo quod
             episcopus cum capitulo suo potest novam dignitatem constituere. Contrarium credo.
           </p>
-          <p>
-            <quote>Praeiudicium</quote> Intelligas enorme, quia pro modico non dimitteret, arg. <ref target="http://scta.info/resource/gd-p2c12q2-Dd1e1274">12.
-            q. 2, bonae rei</ref>; et <ref target="http://scta.info/resource/cice-l3t24-Dd1e229">infra, de dona., Apostolicae.</ref> Sed melius ut sonat littera, quia
+          <p xml:id="a9cj9a-d1e93-d1e503">
+            <quote xml:id="a9cj9a-d1e93-Qd1e505">Praeiudicium</quote> Intelligas enorme, quia pro modico non dimitteret, arg. <ref xml:id="a9cj9a-d1e93-Rd1e507" target="http://scta.info/resource/gd-p2c12q2-Dd1e1274">12.
+            q. 2, bonae rei</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e510" target="http://scta.info/resource/cice-l3t24-Dd1e229">infra, de dona., Apostolicae.</ref> Sed melius ut sonat littera, quia
             illae concordantiae intelliguntur de rebus episcopalibus, et hic ipse episcopus modicum
             damnum potest pati, ut aliquid conferat dignitati alii non compelluntur dare de suo,
             nisi iusta causa interveniret constituendi illam dignitatem.
           </p>
-          <p>
-            <quote>In sessionibus</quote> Hoc ideo dicit, quia secundum dignitatem suam honorandus
-            est aliquis in sede, <ref>infra, de maior. et obed., statuimus</ref>; <ref>17. dist., episcopos</ref>; et in
-            subscriptionibus, <ref target="http://scta.info/resource/bgy6gt-d1e5002-Dd1e104">ff. de alb. scrib., decuriones</ref>; et <ref target="http://scta.info/resource/bgy6gt-d1e5002-Dd1e117">ff. de alb. scrib., in albo</ref>; ut in
-            sententiis ferendis, <ref>ff. de decur., spurii</ref>; et in aliis suffragiis, arg. <ref target="http://scta.info/resource/gd-p1d25-Dd1e112">25. dist.,
+          <p xml:id="a9cj9a-d1e93-d1e514">
+            <quote xml:id="a9cj9a-d1e93-Qd1e516">In sessionibus</quote> Hoc ideo dicit, quia secundum dignitatem suam honorandus
+            est aliquis in sede, <ref xml:id="a9cj9a-d1e93-Rd1e518">infra, de maior. et obed., statuimus</ref>; <ref xml:id="a9cj9a-d1e93-Rd1e520">17. dist., episcopos</ref>; et in
+            subscriptionibus, <ref xml:id="a9cj9a-d1e93-Rd1e522" target="http://scta.info/resource/bgy6gt-d1e5002-Dd1e104">ff. de alb. scrib., decuriones</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e525" target="http://scta.info/resource/bgy6gt-d1e5002-Dd1e117">ff. de alb. scrib., in albo</ref>; ut in
+            sententiis ferendis, <ref xml:id="a9cj9a-d1e93-Rd1e529">ff. de decur., spurii</ref>; et in aliis suffragiis, arg. <ref xml:id="a9cj9a-d1e93-Rd1e531" target="http://scta.info/resource/gd-p1d25-Dd1e112">25. dist.,
             perlectis.
           </ref></p>
-          <p>
-            <quote>In Anglicanis ecclesiis</quote> Hoc est cum eadem consuetudo in aliis erat
-            ecclesiis Anglicanis, illa servaretur, arg. <ref target="http://scta.info/resource/cice-l1t6-Dd1e558">infra, de elect., cum ecclesia.</ref> Si vero
-            diversae essent consuetudines, consuetudo metropolitanae ecclesiae servanda est, <ref>12.
+          <p xml:id="a9cj9a-d1e93-d1e535">
+            <quote xml:id="a9cj9a-d1e93-Qd1e537">In Anglicanis ecclesiis</quote> Hoc est cum eadem consuetudo in aliis erat
+            ecclesiis Anglicanis, illa servaretur, arg. <ref xml:id="a9cj9a-d1e93-Rd1e539" target="http://scta.info/resource/cice-l1t6-Dd1e558">infra, de elect., cum ecclesia.</ref> Si vero
+            diversae essent consuetudines, consuetudo metropolitanae ecclesiae servanda est, <ref xml:id="a9cj9a-d1e93-Rd1e542">12.
             dist., de his.</ref> Vel quod verius est, quod melius servari posset sine praeiudicio aliorum,
-            ut dicit in fine, arg. <ref>12. dist., novit.
+            ut dicit in fine, arg. <ref xml:id="a9cj9a-d1e93-Rd1e544">12. dist., novit.
           </ref></p>
-          <p>
-            <quote>Illam</quote> Sed videtur quod minorem ex quo ita indistincte dicit, arg. <ref target="http://scta.info/resource/bgy6gt-d1e2474-Dd1e1403">ff. de
-            leg. 3, nummis</ref>; <ref target="http://scta.info/resource/cice-l3t39-Dd1e366">infra, de censib., ex parte.</ref> Immo videtur de mediocri, <ref target="http://scta.info/resource/bgy6gt-d1e1728-Dd1e499">ff. de aedil.
-            edict., sciendum tamen § illud</ref>; et <ref target="http://scta.info/resource/bgy6gt-d1e1728-Dd1e483">ff. de aedil. edict., si quid venditor, in fi.
+          <p xml:id="a9cj9a-d1e93-d1e546">
+            <quote xml:id="a9cj9a-d1e93-Qd1e548">Illam</quote> Sed videtur quod minorem ex quo ita indistincte dicit, arg. <ref xml:id="a9cj9a-d1e93-Rd1e550" target="http://scta.info/resource/bgy6gt-d1e2474-Dd1e1403">ff. de
+            leg. 3, nummis</ref>; <ref xml:id="a9cj9a-d1e93-Rd1e553" target="http://scta.info/resource/cice-l3t39-Dd1e366">infra, de censib., ex parte.</ref> Immo videtur de mediocri, <ref xml:id="a9cj9a-d1e93-Rd1e556" target="http://scta.info/resource/bgy6gt-d1e1728-Dd1e499">ff. de aedil.
+            edict., sciendum tamen § illud</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e559" target="http://scta.info/resource/bgy6gt-d1e1728-Dd1e483">ff. de aedil. edict., si quid venditor, in fi.
           </ref></p>
-          <p>
-            <quote>Sine praeiudicio alieno</quote> Arg. quod licet privilegii verba generaliter
-            loquantur, non tamen sunt interpretanda in praeiudicium aliorum, <ref target="http://scta.info/resource/cice-l1t7-Dd1e150">infra, de translat.,
-            licet, in fi.</ref>; et <ref>infra, de offi. ord., licet</ref>; et <ref target="http://scta.info/resource/cice-l1t8-Dd1e169">infra, de auctor. et usu pal., ex
+          <p xml:id="a9cj9a-d1e93-d1e562">
+            <quote xml:id="a9cj9a-d1e93-Qd1e564">Sine praeiudicio alieno</quote> Arg. quod licet privilegii verba generaliter
+            loquantur, non tamen sunt interpretanda in praeiudicium aliorum, <ref xml:id="a9cj9a-d1e93-Rd1e566" target="http://scta.info/resource/cice-l1t7-Dd1e150">infra, de translat.,
+            licet, in fi.</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e569">infra, de offi. ord., licet</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e571" target="http://scta.info/resource/cice-l1t8-Dd1e169">infra, de auctor. et usu pal., ex
             tuarum.</ref> Item arg. quod in dubio recurritur ad consuetudinem vicinarum ecclesiarum,
-            <ref target="http://scta.info/resource/cice-l4t11-Dd1e138">infra, de cognat. spir., super eo</ref>; et <ref target="http://scta.info/resource/cice-l3t39-Dd1e426">infra, de censib., super eo, ubi de hoc dicitur
-            expresse</ref>; <ref target="http://scta.info/resource/bgy6gt-d1e2558-Dd1e461">ff. de instruc. vel instrum., cum de lanionis § asinam molendinariam, in fi.,
-            ff. de regul. iur., semper in stipulationibus</ref>; et <ref>12. dist., novit.</ref> Item arg. quod in
-            obscuris semper interpretatio ita debet fieri ut nulli sit captiosa, <ref>ff. de regul. iur.,
-            quotiens</ref>; et <ref target="http://scta.info/resource/cice-l1t4-Dd1e214">infra, de consuet., cum dilectus</ref>; arg. <ref target="http://scta.info/resource/gd-p1d4-Dd1e127">4. dist., erit autem.
+            <ref xml:id="a9cj9a-d1e93-Rd1e574" target="http://scta.info/resource/cice-l4t11-Dd1e138">infra, de cognat. spir., super eo</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e578" target="http://scta.info/resource/cice-l3t39-Dd1e426">infra, de censib., super eo, ubi de hoc dicitur
+            expresse</ref>; <ref xml:id="a9cj9a-d1e93-Rd1e581" target="http://scta.info/resource/bgy6gt-d1e2558-Dd1e461">ff. de instruc. vel instrum., cum de lanionis § asinam molendinariam, in fi.,
+            ff. de regul. iur., semper in stipulationibus</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e584">12. dist., novit.</ref> Item arg. quod in
+            obscuris semper interpretatio ita debet fieri ut nulli sit captiosa, <ref xml:id="a9cj9a-d1e93-Rd1e586">ff. de regul. iur.,
+            quotiens</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e588" target="http://scta.info/resource/cice-l1t4-Dd1e214">infra, de consuet., cum dilectus</ref>; arg. <ref xml:id="a9cj9a-d1e93-Rd1e591" target="http://scta.info/resource/gd-p1d4-Dd1e127">4. dist., erit autem.
           </ref></p>
         </div>
-        <div>
-          <head>Caput 07</head>
-          <p>
-            <quote>Migrasse</quote> Sicut abbas subiectus episcopo non debet sine licentia episcopi
-            renunciare, <ref target="http://scta.info/resource/gd-p2c18q2-Dd1e207">18. q. 2, abbas pro humiliatione.</ref> Nec etiam alii clerici, ut <ref>infra, de
+        <div xml:id="a9cj9a-d1e93-Dd1e595">
+          <head xml:id="a9cj9a-d1e93-Hd1e597">Caput 07</head>
+          <p xml:id="a9cj9a-d1e93-d1e599">
+            <quote xml:id="a9cj9a-d1e93-Qd1e601">Migrasse</quote> Sicut abbas subiectus episcopo non debet sine licentia episcopi
+            renunciare, <ref xml:id="a9cj9a-d1e93-Rd1e603" target="http://scta.info/resource/gd-p2c18q2-Dd1e207">18. q. 2, abbas pro humiliatione.</ref> Nec etiam alii clerici, ut <ref xml:id="a9cj9a-d1e93-Rd1e606">infra, de
             renunciat., admonet.</ref> Sic abbas subiectus tantum Papae renunciare non potest sine ipsius
-            licentia, etiam si sit insufficiens, <ref>infra, de renunciat., dilecti, decretali Gregorii
-            ix.</ref> Sed videtur quod esset utraque privandus, <ref>7. q. 1, si quis episcopus</ref>; et <ref target="http://scta.info/resource/cice-l1t7-Dd1e138">infra, de
+            licentia, etiam si sit insufficiens, <ref xml:id="a9cj9a-d1e93-Rd1e608">infra, de renunciat., dilecti, decretali Gregorii
+            ix.</ref> Sed videtur quod esset utraque privandus, <ref xml:id="a9cj9a-d1e93-Rd1e610">7. q. 1, si quis episcopus</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e613" target="http://scta.info/resource/cice-l1t7-Dd1e138">infra, de
             translat., quanto.</ref> Utrum toleratus fuerit vel repulsus ab utraque hic non dicit, sed
-            forte propter illam consuetudinem fuit toleratus; simile <ref target="http://scta.info/resource/cice-l1t6-Dd1e512">infra, de elect., quod sicut §
+            forte propter illam consuetudinem fuit toleratus; simile <ref xml:id="a9cj9a-d1e93-Rd1e616" target="http://scta.info/resource/cice-l1t6-Dd1e512">infra, de elect., quod sicut §
             super eodem.
           </ref></p>
-          <p>
-            <quote>Consuetudinem</quote> Quae forte fuit quod statim cum sint electi, sine aliqua
+          <p xml:id="a9cj9a-d1e93-d1e619">
+            <quote xml:id="a9cj9a-d1e93-Qd1e621">Consuetudinem</quote> Quae forte fuit quod statim cum sint electi, sine aliqua
             confirmatione administrant, renunciant, et transeunt ad alias dignitates sine licentia
-            Papae, quod esse non debet, <ref target="http://scta.info/resource/cice-l1t6-Dd1e351">infra, de elect., qualiter</ref>; et <ref>infra, de renunciat.,
+            Papae, quod esse non debet, <ref xml:id="a9cj9a-d1e93-Rd1e623" target="http://scta.info/resource/cice-l1t6-Dd1e351">infra, de elect., qualiter</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e626">infra, de renunciat.,
             dilecti.</ref> Ex generali tamen dispensatione praelati, qui subsunt tantum domino Papae nullo
             medio statim postquam sunt in concordia electi, administrant qui sunt valde remoti,
-            <ref target="http://scta.info/resource/cice-l1t6-Dd1e755">infra, de elect., nihil est.</ref> Ratio quare hoc fiat redditur, scilicet, ne ecclesia
+            <ref xml:id="a9cj9a-d1e93-Rd1e628" target="http://scta.info/resource/cice-l1t6-Dd1e755">infra, de elect., nihil est.</ref> Ratio quare hoc fiat redditur, scilicet, ne ecclesia
             interim patiatur tam in temporalibus quam in spiritualibus laesionem.
           </p>
-          <p>
-            <quote>Consuetudo</quote> Alias tamen consuetudo attenditur in electionibus, arg. <ref>12.
-            dist., nos consuetudinem</ref>; et <ref>infra, de cleri. coniug., cum olim</ref>; et <ref target="http://scta.info/resource/cice-l2t12-Dd1e138">infra, de caus.
-            poss. et propr., cum ecclesia</ref>; et <ref target="http://scta.info/resource/gd-p2c24q1-Dd1e597">24. q. 1, pudenda</ref>; et <ref>ff. de decur., non tantum.
+          <p xml:id="a9cj9a-d1e93-d1e632">
+            <quote xml:id="a9cj9a-d1e93-Qd1e634">Consuetudo</quote> Alias tamen consuetudo attenditur in electionibus, arg. <ref xml:id="a9cj9a-d1e93-Rd1e636">12.
+            dist., nos consuetudinem</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e638">infra, de cleri. coniug., cum olim</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e640" target="http://scta.info/resource/cice-l2t12-Dd1e138">infra, de caus.
+            poss. et propr., cum ecclesia</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e643" target="http://scta.info/resource/gd-p2c24q1-Dd1e597">24. q. 1, pudenda</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e647">ff. de decur., non tantum.
           </ref></p>
         </div>
-        <div>
-          <head>Caput 08</head>
-          <p>
-            <quote>Cum dilectus</quote> Cum ageret Guil. iste super iure eligendi abbatem, habebat
+        <div xml:id="a9cj9a-d1e93-Dd1e650">
+          <head xml:id="a9cj9a-d1e93-Hd1e652">Caput 08</head>
+          <p xml:id="a9cj9a-d1e93-d1e654">
+            <quote xml:id="a9cj9a-d1e93-Qd1e656">Cum dilectus</quote> Cum ageret Guil. iste super iure eligendi abbatem, habebat
             mandatum a capitulo et vacante ecclesia, sed quantum ad petendam confirmationem
             electionis suae, agebat ex persona sua iure suo sibi acquisito per electionem sic,
-            <ref target="http://scta.info/resource/cice-l1t41-Dd1e123">infra, de in integ. restit., cum venissent, in notula, et sic videtur ubi de hoc.</ref> Ber.
+            <ref xml:id="a9cj9a-d1e93-Rd1e658" target="http://scta.info/resource/cice-l1t41-Dd1e123">infra, de in integ. restit., cum venissent, in notula, et sic videtur ubi de hoc.</ref> Ber.
           </p>
-          <p>
-            <quote>De iure</quote> <ref target="http://scta.info/resource/gd-p2c18q2-Dd1e141">18. q. 2, abbatem cuilibet</ref>; et <ref target="http://scta.info/resource/gd-p2c18q2-Dd1e146">18. q. 2, abbatem in monasterio</ref>;
-            et <ref target="http://scta.info/resource/gd-p2c18q2-Dd1e162">18. q. 2, quam sit</ref>; et <ref target="http://scta.info/resource/gd-p2c16q7-Dd1e755">16. q. 7, congregatio</ref>; <ref target="http://scta.info/resource/cice-l2t12-Dd1e138">infra, de caus. poss. et propr., cum
+          <p xml:id="a9cj9a-d1e93-d1e662">
+            <quote xml:id="a9cj9a-d1e93-Qd1e664">De iure</quote> <ref xml:id="a9cj9a-d1e93-Rd1e666" target="http://scta.info/resource/gd-p2c18q2-Dd1e141">18. q. 2, abbatem cuilibet</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e669" target="http://scta.info/resource/gd-p2c18q2-Dd1e146">18. q. 2, abbatem in monasterio</ref>;
+            et <ref xml:id="a9cj9a-d1e93-Rd1e672" target="http://scta.info/resource/gd-p2c18q2-Dd1e162">18. q. 2, quam sit</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e675" target="http://scta.info/resource/gd-p2c16q7-Dd1e755">16. q. 7, congregatio</ref>; <ref xml:id="a9cj9a-d1e93-Rd1e679" target="http://scta.info/resource/cice-l2t12-Dd1e138">infra, de caus. poss. et propr., cum
             ecclesia.
           </ref></p>
-          <p>
-            <quote>Eligendi</quote> Lex dicit quod monachi debent iurare eligere abbatem, quem
-            sciunt fide rectum, vita castum, et qui monasterio valeat utiliter providere, <ref>in Auth.
+          <p xml:id="a9cj9a-d1e93-d1e682">
+            <quote xml:id="a9cj9a-d1e93-Qd1e684">Eligendi</quote> Lex dicit quod monachi debent iurare eligere abbatem, quem
+            sciunt fide rectum, vita castum, et qui monasterio valeat utiliter providere, <ref xml:id="a9cj9a-d1e93-Rd1e686">in Auth.
             de sanct. episc. § iubemus igitur abbatem, coll. 9.</ref> Quod hodie non servatur, sed
-            secundum formam illius constitutionis, <ref target="http://scta.info/resource/cice-l1t6-Dd1e725">infra, de elect., quia propter, eligere debent,
+            secundum formam illius constitutionis, <ref xml:id="a9cj9a-d1e93-Rd1e688" target="http://scta.info/resource/cice-l1t6-Dd1e725">infra, de elect., quia propter, eligere debent,
             si secundum illam volunt eligere.
           </ref></p>
-          <p>
-            <quote>Constitutum</quote> Licet episcopus possit subiicere unam ecclesiam alteri, ut
-            <ref target="http://scta.info/resource/cice-l5t31-Dd1e214">infra, de excess. praelat., sicut, non tamen credo quod possit statuere quod una
+          <p xml:id="a9cj9a-d1e93-d1e691">
+            <quote xml:id="a9cj9a-d1e93-Qd1e693">Constitutum</quote> Licet episcopus possit subiicere unam ecclesiam alteri, ut
+            <ref xml:id="a9cj9a-d1e93-Rd1e695" target="http://scta.info/resource/cice-l5t31-Dd1e214">infra, de excess. praelat., sicut, non tamen credo quod possit statuere quod una
             ecclesia eligat de alia clericis invitis, quia hoc esset contra ius commune, ut 17. q.
-            4, quicumque vult</ref>; et <ref target="http://scta.info/resource/gd-p2c18q2-Dd1e141">18. q. 2, abbatem</ref>; et <ref>infra, de iure patron., nobis.</ref> Quia pacto
-            privatorum ius publicum non tollitur, <ref target="http://scta.info/resource/cice-l2t2-Dd1e275">infra, de for. compet., si diligenti</ref>; <ref target="http://scta.info/resource/cice-l3t26-Dd1e320">infra, de
+            4, quicumque vult</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e698" target="http://scta.info/resource/gd-p2c18q2-Dd1e141">18. q. 2, abbatem</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e701">infra, de iure patron., nobis.</ref> Quia pacto
+            privatorum ius publicum non tollitur, <ref xml:id="a9cj9a-d1e93-Rd1e703" target="http://scta.info/resource/cice-l2t2-Dd1e275">infra, de for. compet., si diligenti</ref>; <ref xml:id="a9cj9a-d1e93-Rd1e707" target="http://scta.info/resource/cice-l3t26-Dd1e320">infra, de
             testamen., requisisti.</ref> Nec aliquis ius publicum remittere potest aliquibus cautionibus,
-            nec mutare antiquitus formam constitutam, <ref>ff. de admin. tut., quidam decedens.</ref> Et ideo
+            nec mutare antiquitus formam constitutam, <ref xml:id="a9cj9a-d1e93-Rd1e710">ff. de admin. tut., quidam decedens.</ref> Et ideo
             Papa postea interpretatur statutum, tamen ius istud praescribi potest, ut quis teneatur
-            eligere de certo loco, ut hic patet, et <ref target="http://scta.info/resource/cice-l5t40-Dd1e472">infra, de verb. sign., abbate.</ref> Et sic patet quod
-            minus iustus titulus dat causam praescribendi, ut <ref target="http://scta.info/resource/cice-l3t17-Dd1e153">infra, de empt. et vend., pervenit</ref>;
-            <ref>ff. pro empt., quod vulgo</ref>; <ref target="http://scta.info/resource/bgy6gt-d1e3508-Dd1e135">ff. pro legat., pro legato potest</ref>; et <ref target="http://scta.info/resource/bgy6gt-d1e3508-Dd1e185">ff. pro legat., pro
+            eligere de certo loco, ut hic patet, et <ref xml:id="a9cj9a-d1e93-Rd1e712" target="http://scta.info/resource/cice-l5t40-Dd1e472">infra, de verb. sign., abbate.</ref> Et sic patet quod
+            minus iustus titulus dat causam praescribendi, ut <ref xml:id="a9cj9a-d1e93-Rd1e715" target="http://scta.info/resource/cice-l3t17-Dd1e153">infra, de empt. et vend., pervenit</ref>;
+            <ref xml:id="a9cj9a-d1e93-Rd1e718">ff. pro empt., quod vulgo</ref>; <ref xml:id="a9cj9a-d1e93-Rd1e720" target="http://scta.info/resource/bgy6gt-d1e3508-Dd1e135">ff. pro legat., pro legato potest</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e724" target="http://scta.info/resource/bgy6gt-d1e3508-Dd1e185">ff. pro legat., pro
             legato usucapit.</ref> Et vere videtur iniustus, quia episcopus non potest tollere ius unius
-            ecclesiae et dare alteri, <ref target="http://scta.info/resource/cice-l3t13-Dd1e108">infra, de rebus ecc. non alien., non licet.</ref> Sed ex tali titulo
+            ecclesiae et dare alteri, <ref xml:id="a9cj9a-d1e93-Rd1e727" target="http://scta.info/resource/cice-l3t13-Dd1e108">infra, de rebus ecc. non alien., non licet.</ref> Sed ex tali titulo
             potuit bona fide monasterium Karofensi, et episcopus solummodo concessit monasterio
             Karofensi quod suum erat, scilicet, confirmationem electionis. Et ita cessante
             praescriptione solam confirmationem habent, ut probatur per interpretationem Papae, ut
@@ -345,193 +343,193 @@
             clerici instituendi semper eligerent sibi praelatum de maiori ecclesia, et quod dicit
             supra, quod episcopus non potest facere quod una ecclesia eligat sibi praelatum de
             ecclesia alia. Hoc intellige quando ecclesiae sunt tam institutae et donatae, et ab
-            invicem distinctae et separatae, quia illud esset contra ius commune, <ref target="http://scta.info/resource/cice-l5t31-Dd1e123">infra, de excess.
+            invicem distinctae et separatae, quia illud esset contra ius commune, <ref xml:id="a9cj9a-d1e93-Rd1e730" target="http://scta.info/resource/cice-l5t31-Dd1e123">infra, de excess.
             praelat., ad haec.
           </ref></p>
-          <p>
-            <quote>Electio</quote> Hic sumitur electio aequivoce pro confirmatione et pro electione,
+          <p xml:id="a9cj9a-d1e93-d1e734">
+            <quote xml:id="a9cj9a-d1e93-Qd1e736">Electio</quote> Hic sumitur electio aequivoce pro confirmatione et pro electione,
             ut infra patet, et hoc verum est si consuetudo non probetur. Sed si probetur, proprie
             tenetur.
           </p>
-          <p>
-            <quote>Interpres</quote> <ref target="http://scta.info/resource/bgy6gt-d1e81-Dd1e489">ff. de legib., si de interpretatione</ref>; et <ref target="http://scta.info/resource/cice-l3t28-Dd1e229">infra, de sepult.,
-            certificari.</ref> Et tacito consensu per desuetudinem lex abrogatur, <ref target="http://scta.info/resource/bgy6gt-d1e81-Dd1e435">ff. de legib., de
+          <p xml:id="a9cj9a-d1e93-d1e739">
+            <quote xml:id="a9cj9a-d1e93-Qd1e741">Interpres</quote> <ref xml:id="a9cj9a-d1e93-Rd1e743" target="http://scta.info/resource/bgy6gt-d1e81-Dd1e489">ff. de legib., si de interpretatione</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e746" target="http://scta.info/resource/cice-l3t28-Dd1e229">infra, de sepult.,
+            certificari.</ref> Et tacito consensu per desuetudinem lex abrogatur, <ref xml:id="a9cj9a-d1e93-Rd1e749" target="http://scta.info/resource/bgy6gt-d1e81-Dd1e435">ff. de legib., de
             quibus, in fi.
           </ref></p>
-          <p>
-            <quote>A suspensis</quote> Suspensus enim non potest eligere nec eligi, ut hic, et
-            <ref target="http://scta.info/resource/cice-l1t6-Dd1e335">infra, de elect., cum inter R</ref>; et <ref target="http://scta.info/resource/cice-l1t14-Dd1e214">infra, de aetat. et qualit., cum bonae</ref>; et <ref>infra, de
-            cleri. excom., postulasti.</ref> Nec postulari potest qui non servavit interdictum, <ref>infra, de
-            postul. praelat., ad haec, in fi.</ref>; nec beneficia conferre, <ref target="http://scta.info/resource/cice-l3t8-Dd1e169">infra, de concess. praeben.,
+          <p xml:id="a9cj9a-d1e93-d1e752">
+            <quote xml:id="a9cj9a-d1e93-Qd1e754">A suspensis</quote> Suspensus enim non potest eligere nec eligi, ut hic, et
+            <ref xml:id="a9cj9a-d1e93-Rd1e756" target="http://scta.info/resource/cice-l1t6-Dd1e335">infra, de elect., cum inter R</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e759" target="http://scta.info/resource/cice-l1t14-Dd1e214">infra, de aetat. et qualit., cum bonae</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e762">infra, de
+            cleri. excom., postulasti.</ref> Nec postulari potest qui non servavit interdictum, <ref xml:id="a9cj9a-d1e93-Rd1e764">infra, de
+            postul. praelat., ad haec, in fi.</ref>; nec beneficia conferre, <ref xml:id="a9cj9a-d1e93-Rd1e767" target="http://scta.info/resource/cice-l3t8-Dd1e169">infra, de concess. praeben.,
             quia diversitatem.</ref> Sed nonne iudicare et praebendas dare est iurisdictionis? Utique,
-            <ref target="http://scta.info/resource/cice-l1t6-Dd1e229">infra, de elect., nosti.</ref> Et excommunicare, <ref target="http://scta.info/resource/cice-l1t6-Dd1e320">infra, de elect., transmissam.</ref> Numquid
+            <ref xml:id="a9cj9a-d1e93-Rd1e770" target="http://scta.info/resource/cice-l1t6-Dd1e229">infra, de elect., nosti.</ref> Et excommunicare, <ref xml:id="a9cj9a-d1e93-Rd1e773" target="http://scta.info/resource/cice-l1t6-Dd1e320">infra, de elect., transmissam.</ref> Numquid
             suspensus potest huiusmodi iurisdictionem exercere? Dicunt quidam quod episcopus
-            suspensus potest excommunicare et praebendas dare, et respondent illi decretali <ref target="http://scta.info/resource/cice-l3t8-Dd1e169">infra,
+            suspensus potest excommunicare et praebendas dare, et respondent illi decretali <ref xml:id="a9cj9a-d1e93-Rd1e776" target="http://scta.info/resource/cice-l3t8-Dd1e169">infra,
             de concess. praeben., quia diversitatem</ref>, quod ille episcopus erat ab officio suspensus
             et iurisdictione. Sed dicunt quod canonicus suspensus eligere non potest, quia cum sit
-            suspensus, nihil officii retinet; secus est in praelato. Sed contra istos est <ref>24. q. 1,
+            suspensus, nihil officii retinet; secus est in praelato. Sed contra istos est <ref xml:id="a9cj9a-d1e93-Rd1e779">24. q. 1,
             audivimus.</ref> Alii dicunt, et melius, quod episcopus suspensus non potest excommunicare nec
-            interdicere nec dare praebendas, <ref target="http://scta.info/resource/cice-l5t31-Dd1e366">infra, de excess. praelat., tanta.</ref> Arg. quamvis hoc
+            interdicere nec dare praebendas, <ref xml:id="a9cj9a-d1e93-Rd1e781" target="http://scta.info/resource/cice-l5t31-Dd1e366">infra, de excess. praelat., tanta.</ref> Arg. quamvis hoc
             potuerit post confirmationem, licet adhuc non sit consecratus. Ratio illa videtur quia
             plus aufert ei suspensio quam contulerit consecratio, ut dici consuevit, plus tollit
             negatio quam ponit affirmatio. Nam electus et confirmatus multa potest ex his quae
             pertinent ad officium episcopale, quae perdit per suspensionem, quia consecratio non
-            multum addit, <ref target="http://scta.info/resource/cice-l1t7-Dd1e123">infra, de translat., inter corporalia.</ref> Et est simile sicut maritus post
-            matrimonium consummatum non potest intrare religionem, sed ante potest, <ref target="http://scta.info/resource/cice-l3t32-Dd1e199">infra, de
+            multum addit, <ref xml:id="a9cj9a-d1e93-Rd1e785" target="http://scta.info/resource/cice-l1t7-Dd1e123">infra, de translat., inter corporalia.</ref> Et est simile sicut maritus post
+            matrimonium consummatum non potest intrare religionem, sed ante potest, <ref xml:id="a9cj9a-d1e93-Rd1e788" target="http://scta.info/resource/cice-l3t32-Dd1e199">infra, de
             conver. coniug., ex publico.</ref> Sic episcopus non confirmatus potest aliqua quae tamen non
             potest consecratus. Sic vides in alio simile, episcopus in archiepiscopum electus non
             potest ante receptionem pallii tamquam archiepiscopus clericos ordinare, sed tamen
             potest antequam sit electus in archiepiscopum, quia hoc non facit ut episcopus, sed ut
-            archiepiscopus, <ref target="http://scta.info/resource/cice-l1t6-Dd1e512">infra, de elect., quod sicut § praeterea.</ref> Praeterea beneficium concedere
-            et etiam habere posse competit ratione ordinis, et est eius accessorium, <ref target="http://scta.info/resource/gd-p2c1q3-Dd1e200">1. q. 3, si
-            quis obiecerit</ref>; et cui interdicitur unum et reliquum, <ref target="http://scta.info/resource/gd-p1d81-Dd1e345">81. dist., si quis sacerdotum</ref>; et
-            <ref>81. dist., eos qui.</ref> Praeterea de hac suspensione fuit obiectum et probatum ex eo quod
+            archiepiscopus, <ref xml:id="a9cj9a-d1e93-Rd1e791" target="http://scta.info/resource/cice-l1t6-Dd1e512">infra, de elect., quod sicut § praeterea.</ref> Praeterea beneficium concedere
+            et etiam habere posse competit ratione ordinis, et est eius accessorium, <ref xml:id="a9cj9a-d1e93-Rd1e794" target="http://scta.info/resource/gd-p2c1q3-Dd1e200">1. q. 3, si
+            quis obiecerit</ref>; et cui interdicitur unum et reliquum, <ref xml:id="a9cj9a-d1e93-Rd1e797" target="http://scta.info/resource/gd-p1d81-Dd1e345">81. dist., si quis sacerdotum</ref>; et
+            <ref xml:id="a9cj9a-d1e93-Rd1e800">81. dist., eos qui.</ref> Praeterea de hac suspensione fuit obiectum et probatum ex eo quod
             dicit, quia nobis constituit, etc., et licet obiectum a partibus non fuerit, iudex tamen
-            qui debet electionem confirmare ex officio suo debet inquirere de huiusmodi, <ref target="http://scta.info/resource/cice-l1t6-Dd1e755">infra, de
+            qui debet electionem confirmare ex officio suo debet inquirere de huiusmodi, <ref xml:id="a9cj9a-d1e93-Rd1e803" target="http://scta.info/resource/cice-l1t6-Dd1e755">infra, de
             elect., nihil est.</ref> Et haec quae dicuntur hic de his suspensis intelliguntur de suspensis
             ab homine et etiam a canone. Si vero aliquis esset suspensus a canone, puta participando
             cum excommunicatis, ille talis bene potest eligere et alia facere quae sunt
-            iurisdictionis, sed eligi scienter non potest; haec probantur <ref target="http://scta.info/resource/cice-l5t27-Dd1e244">infra, de cleri. excom.,
-            si celebrat.</ref> Quia mitius agitur cum lege quam cum ministro legis, <ref target="http://scta.info/resource/bgy6gt-d1e634-Dd1e451">ff. de recepti.,
+            iurisdictionis, sed eligi scienter non potest; haec probantur <ref xml:id="a9cj9a-d1e93-Rd1e806" target="http://scta.info/resource/cice-l5t27-Dd1e244">infra, de cleri. excom.,
+            si celebrat.</ref> Quia mitius agitur cum lege quam cum ministro legis, <ref xml:id="a9cj9a-d1e93-Rd1e809" target="http://scta.info/resource/bgy6gt-d1e634-Dd1e451">ff. de recepti.,
             Celsus.</ref> Satis potest dici suspensus posset excommunicare, quia potest absolvere
-            excommunicatum, <ref target="http://scta.info/resource/cice-l1t3-Dd1e715">supra, de rescript., ab excommunicato</ref>; <ref target="http://scta.info/resource/cice-l5t39-Dd1e821">infra, de sent. excom., sacro</ref>; et
-            <ref target="http://scta.info/resource/cice-l5t39-Dd1e942">infra, de sent. excom., duobus</ref>; et quia potest absolvere, potest ligare et econtra cum
+            excommunicatum, <ref xml:id="a9cj9a-d1e93-Rd1e812" target="http://scta.info/resource/cice-l1t3-Dd1e715">supra, de rescript., ab excommunicato</ref>; <ref xml:id="a9cj9a-d1e93-Rd1e815" target="http://scta.info/resource/cice-l5t39-Dd1e821">infra, de sent. excom., sacro</ref>; et
+            <ref xml:id="a9cj9a-d1e93-Rd1e818" target="http://scta.info/resource/cice-l5t39-Dd1e942">infra, de sent. excom., duobus</ref>; et quia potest absolvere, potest ligare et econtra cum
             non sit privatus a communione fidelium, quare non posset privare alium. Et hoc dico de
             eo qui non est suspensus a iurisdictione, ut suspensus a canone sola participatione. Io.
             et Laur. hoc concedunt quod suspensus ab officio tantum potest excommunicare et
-            praebendas dare. Et intelligunt illam decretalem <ref target="http://scta.info/resource/cice-l3t8-Dd1e169">infra, de concess. praeben., quia
+            praebendas dare. Et intelligunt illam decretalem <ref xml:id="a9cj9a-d1e93-Rd1e822" target="http://scta.info/resource/cice-l3t8-Dd1e169">infra, de concess. praeben., quia
             diversitatem</ref>, cum erat suspensus ab officio et iurisdictione. Ego autem non credo quod
             suspensus ab homine possit dare praebendas, ut hic dicitur, licet Laur. et Io. concedant
             quod possit excommunicare et praebendas dare. Arg. contra posset induci praedictae
-            decretali <ref target="http://scta.info/resource/cice-l5t27-Dd1e244">infra, de cleri. excom., si celebrat, quae tamen intelligitur de excommunicare
+            decretali <ref xml:id="a9cj9a-d1e93-Rd1e825" target="http://scta.info/resource/cice-l5t27-Dd1e244">infra, de cleri. excom., si celebrat, quae tamen intelligitur de excommunicare
             minori.</ref> Melior enim est opinio secunda, quia sicut excommunicatus alium excommunicare
-            non potest, <ref>24. q. 1, audivimus, ita eadem ratione nec suspensus ab homine alium potest
+            non potest, <ref xml:id="a9cj9a-d1e93-Rd1e828">24. q. 1, audivimus, ita eadem ratione nec suspensus ab homine alium potest
             suspendere, infra, de excess. praelat., tanta.</ref> Ber.
           </p>
-          <p>
-            <quote>Cassavimus</quote> Id est, cassam nunciavimus, infra, ut lite non cont., accedens
+          <p xml:id="a9cj9a-d1e93-d1e831">
+            <quote xml:id="a9cj9a-d1e93-Qd1e833">Cassavimus</quote> Id est, cassam nunciavimus, infra, ut lite non cont., accedens
             1.
           </p>
-          <p>
-            <quote>Iure communi</quote> Similem interpretationem habes <ref target="http://scta.info/resource/cice-l2t22-Dd1e184">infra, de fide instrum.,
+          <p xml:id="a9cj9a-d1e93-d1e836">
+            <quote xml:id="a9cj9a-d1e93-Qd1e838">Iure communi</quote> Similem interpretationem habes <ref xml:id="a9cj9a-d1e93-Rd1e840" target="http://scta.info/resource/cice-l2t22-Dd1e184">infra, de fide instrum.,
             inter dilectos, vers. caeterum, ubi enim aliquid a iure communi discrepare videtur.</ref>
             Reducendum est ad ius commune si potest fieri, ne pereat, quia promptum est leges
-            legibus concordare, <ref target="http://scta.info/resource/azsw2e-d1e1678-Dd1e106">C. de inoffic. doti., cum omnia.</ref> Et Augustinus concordat
+            legibus concordare, <ref xml:id="a9cj9a-d1e93-Rd1e843" target="http://scta.info/resource/azsw2e-d1e1678-Dd1e106">C. de inoffic. doti., cum omnia.</ref> Et Augustinus concordat
             evangelistas, de poen. dist. 1, periculose. Et etiam testes debent ad concordiam reduci,
-            ne de periurio notentur, <ref target="http://scta.info/resource/cice-l2t20-Dd1e335">infra, de testib., cum tu.</ref> Sic enim facienda est interpretatio,
-            ut nulli sit onerosa, et secundum ius, <ref target="http://scta.info/resource/cice-l1t3-Dd1e366">supra, de rescript., causam quae</ref>; et <ref target="http://scta.info/resource/cice-l5t33-Dd1e351">infra, de
-            privileg., ex ore</ref>; et <ref target="http://scta.info/resource/cice-l1t4-Dd1e184">supra, de consuet., cum olim.</ref> Item secundum quod minus est
-            captiosa, <ref>ff. de regul. iur., quotiens, in fi. tituli.</ref> Et hoc ita verum est quod ad ius
+            ne de periurio notentur, <ref xml:id="a9cj9a-d1e93-Rd1e846" target="http://scta.info/resource/cice-l2t20-Dd1e335">infra, de testib., cum tu.</ref> Sic enim facienda est interpretatio,
+            ut nulli sit onerosa, et secundum ius, <ref xml:id="a9cj9a-d1e93-Rd1e849" target="http://scta.info/resource/cice-l1t3-Dd1e366">supra, de rescript., causam quae</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e853" target="http://scta.info/resource/cice-l5t33-Dd1e351">infra, de
+            privileg., ex ore</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e856" target="http://scta.info/resource/cice-l1t4-Dd1e184">supra, de consuet., cum olim.</ref> Item secundum quod minus est
+            captiosa, <ref xml:id="a9cj9a-d1e93-Rd1e859">ff. de regul. iur., quotiens, in fi. tituli.</ref> Et hoc ita verum est quod ad ius
             commune reducatur si verba illa patiuntur, ut hoc versu, electio eius penes fratres
             eiusdem loci et capitulum Karofensis, etc. Nam a verbis privilegii non est recedendum
-            ubi certa sunt, <ref target="http://scta.info/resource/cice-l5t33-Dd1e199">infra, de privileg., porro</ref>; et <ref target="http://scta.info/resource/cice-l3t30-Dd1e275">infra, de decim., ad audientiam.</ref> Ubi enim
-            verba non sunt ambigua, non est locus interpretationi, <ref target="http://scta.info/resource/bgy6gt-d1e2474-Dd1e511">ff. de leg. 3, ille aut ille.</ref> Sed
+            ubi certa sunt, <ref xml:id="a9cj9a-d1e93-Rd1e861" target="http://scta.info/resource/cice-l5t33-Dd1e199">infra, de privileg., porro</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e864" target="http://scta.info/resource/cice-l3t30-Dd1e275">infra, de decim., ad audientiam.</ref> Ubi enim
+            verba non sunt ambigua, non est locus interpretationi, <ref xml:id="a9cj9a-d1e93-Rd1e867" target="http://scta.info/resource/bgy6gt-d1e2474-Dd1e511">ff. de leg. 3, ille aut ille.</ref> Sed
             ubi sunt dubia, necessaria est interpretatio.
           </p>
-          <p>
-            <quote>Praeiudicet</quote> Praescripta videlicet, quoniam alia non prodest, <ref target="http://scta.info/resource/cice-l2t12-Dd1e138">infra, de
+          <p xml:id="a9cj9a-d1e93-d1e871">
+            <quote xml:id="a9cj9a-d1e93-Qd1e873">Praeiudicet</quote> Praescripta videlicet, quoniam alia non prodest, <ref xml:id="a9cj9a-d1e93-Rd1e875" target="http://scta.info/resource/cice-l2t12-Dd1e138">infra, de
             caus. poss. et propr., cum ecclesia.</ref> Quae consuetudo iuri praeiudicet, et quae non,
-            dicetur <ref target="http://scta.info/resource/cice-l1t4-Dd1e260">infra, de consuet., cum tanto.
+            dicetur <ref xml:id="a9cj9a-d1e93-Rd1e878" target="http://scta.info/resource/cice-l1t4-Dd1e260">infra, de consuet., cum tanto.
           </ref></p>
         </div>
-        <div>
-          <head>Caput 09</head>
-          <p>
-            <quote>Cum consuetudinis</quote> C. quae sit long. consuet., consuetudinis; et <ref target="http://scta.info/resource/cice-l1t4-Dd1e260">infra, de
-            consuet., cum tanto, et ibi exponitur</ref>; et <ref target="http://scta.info/resource/gd-p1d11-Dd1e155">11. dist., consuetudinis.
+        <div xml:id="a9cj9a-d1e93-Dd1e882">
+          <head xml:id="a9cj9a-d1e93-Hd1e884">Caput 09</head>
+          <p xml:id="a9cj9a-d1e93-d1e886">
+            <quote xml:id="a9cj9a-d1e93-Qd1e888">Cum consuetudinis</quote> C. quae sit long. consuet., consuetudinis; et <ref xml:id="a9cj9a-d1e93-Rd1e890" target="http://scta.info/resource/cice-l1t4-Dd1e260">infra, de
+            consuet., cum tanto, et ibi exponitur</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e893" target="http://scta.info/resource/gd-p1d11-Dd1e155">11. dist., consuetudinis.
           </ref></p>
-          <p>
-            <quote>Consensu</quote> Bene dicit consensu, quia sine ipsius consensu obtento hoc
+          <p xml:id="a9cj9a-d1e93-d1e896">
+            <quote xml:id="a9cj9a-d1e93-Qd1e898">Consensu</quote> Bene dicit consensu, quia sine ipsius consensu obtento hoc
             facere non possunt. Sed videtur quod non teneantur habere consensum, dummodo consilium
-            et tractatum cum eo habeant, arg. <ref target="http://scta.info/resource/cice-l1t43-Dd1e199">infra, de arbitr., cum olim.</ref> Sed hoc non est verum,
+            et tractatum cum eo habeant, arg. <ref xml:id="a9cj9a-d1e93-Rd1e900" target="http://scta.info/resource/cice-l1t43-Dd1e199">infra, de arbitr., cum olim.</ref> Sed hoc non est verum,
             quia illud obtinet ex forma arbitrii, immo episcopus et canonici unum corpus et unum
-            collegium sunt, ita quod ipse caput et ipsi canonici membra, <ref>infra, de his quae fi. a
+            collegium sunt, ita quod ipse caput et ipsi canonici membra, <ref xml:id="a9cj9a-d1e93-Rd1e903">infra, de his quae fi. a
             prael., novit.</ref> Et est expressum quod si aliquibus mandetur, ut cum consilio aliquorum
             aliquid faciant, eorum consilium expectare tenentur, nec sufficit quod tantum
-            requiratur, <ref target="http://scta.info/resource/cice-l1t6-Dd1e876">infra, de elect., cum in veteri.
+            requiratur, <ref xml:id="a9cj9a-d1e93-Rd1e905" target="http://scta.info/resource/cice-l1t6-Dd1e876">infra, de elect., cum in veteri.
           </ref></p>
-          <p>
-            <quote>Vel novas</quote> Novitates enim sine causa inducendae non sunt, quia lex dicit
-            quod in rebus novis constituendis evidens debet esse utilitas, <ref target="http://scta.info/resource/bgy6gt-d1e92-Dd1e120">ff. de constit. princ.,
-            in rebus.</ref> Arg. <ref target="http://scta.info/resource/cice-l1t2-Dd1e123">supra, de consti., cognoscentes.</ref> Et reprehenduntur qui novitates
-            inducunt, <ref target="http://scta.info/resource/gd-p1d11-Dd1e268">11. dist., quis nesciat.
+          <p xml:id="a9cj9a-d1e93-d1e908">
+            <quote xml:id="a9cj9a-d1e93-Qd1e910">Vel novas</quote> Novitates enim sine causa inducendae non sunt, quia lex dicit
+            quod in rebus novis constituendis evidens debet esse utilitas, <ref xml:id="a9cj9a-d1e93-Rd1e912" target="http://scta.info/resource/bgy6gt-d1e92-Dd1e120">ff. de constit. princ.,
+            in rebus.</ref> Arg. <ref xml:id="a9cj9a-d1e93-Rd1e915" target="http://scta.info/resource/cice-l1t2-Dd1e123">supra, de consti., cognoscentes.</ref> Et reprehenduntur qui novitates
+            inducunt, <ref xml:id="a9cj9a-d1e93-Rd1e918" target="http://scta.info/resource/gd-p1d11-Dd1e268">11. dist., quis nesciat.
           </ref></p>
         </div>
-        <div>
-          <head>Caput 10</head>
-          <p>
-            <quote>Indigena</quote> Id est, inde genitus.
+        <div xml:id="a9cj9a-d1e93-Dd1e923">
+          <head xml:id="a9cj9a-d1e93-Hd1e925">Caput 10</head>
+          <p xml:id="a9cj9a-d1e93-d1e927">
+            <quote xml:id="a9cj9a-d1e93-Qd1e929">Indigena</quote> Id est, inde genitus.
           </p>
-          <p>
-            <quote>Prodigalitatis vitio</quote> Quod se esset virtutem saepe mentitur, <ref>41. dist.,
+          <p xml:id="a9cj9a-d1e93-d1e932">
+            <quote xml:id="a9cj9a-d1e93-Qd1e934">Prodigalitatis vitio</quote> Quod se esset virtutem saepe mentitur, <ref xml:id="a9cj9a-d1e93-Rd1e936">41. dist.,
             saepe.</ref> Prodigus est quod dat danda et non danda. Avarus qui tenet tenenda et non
             tenenda. Largus medium tenet inter utrumque. Unde versus: prodigus est animi vitio
             retinenda profundens. // Qui retinet cupide et aes deposcit avarus // largus qui sumptum
             facit ex ratione libenter. Sed non videtur quod huic sit subveniendum, quia culpa sua et
-            vitio incidit in egestatem, <ref target="http://scta.info/resource/bgy6gt-d1e567-Dd1e406">ff. quod metus cau., si mulier</ref>; <ref>86. dist., non satis.</ref> Et
-            dignum est ut male meriti egestatem laborent, <ref target="http://scta.info/resource/bgy6gt-d1e1463-Dd1e608">ff. deposi., bona fides.</ref> Taliter enim non
+            vitio incidit in egestatem, <ref xml:id="a9cj9a-d1e93-Rd1e938" target="http://scta.info/resource/bgy6gt-d1e567-Dd1e406">ff. quod metus cau., si mulier</ref>; <ref xml:id="a9cj9a-d1e93-Rd1e941">86. dist., non satis.</ref> Et
+            dignum est ut male meriti egestatem laborent, <ref xml:id="a9cj9a-d1e93-Rd1e943" target="http://scta.info/resource/bgy6gt-d1e1463-Dd1e608">ff. deposi., bona fides.</ref> Taliter enim non
             fuerat subveniendum huic ratione praemissa, et cum alterius laesione, sed eleemosynam
-            dare possumus, ne pereat, <ref target="http://scta.info/resource/gd-p1d86-Dd1e372">86. dist., pasce fame morientem, etc.
+            dare possumus, ne pereat, <ref xml:id="a9cj9a-d1e93-Rd1e947" target="http://scta.info/resource/gd-p1d86-Dd1e372">86. dist., pasce fame morientem, etc.
           </ref></p>
-          <p>
-            <quote>Incuria</quote> Id est, negligentia. Et ideo ei non est subveniendum, quia
-            vigilantibus et non negligentibus iura subveniunt, <ref target="http://scta.info/resource/cice-l3t19-Dd1e214">infra, de rerum perm., cum
-            universorum</ref>; et <ref target="http://scta.info/resource/cice-l3t24-Dd1e214">infra, de dona., inter dilectos</ref>; <ref target="http://scta.info/resource/bgy6gt-d1e1441-Dd1e120">ff. ad Velleia., et primo § verba.</ref> Quia
-            stultis non consuevit subveniri, sed errantibus, <ref target="http://scta.info/resource/bgy6gt-d1e1823-Dd1e201">ff. de iuris et fact. ignor., regula §
+          <p xml:id="a9cj9a-d1e93-d1e950">
+            <quote xml:id="a9cj9a-d1e93-Qd1e952">Incuria</quote> Id est, negligentia. Et ideo ei non est subveniendum, quia
+            vigilantibus et non negligentibus iura subveniunt, <ref xml:id="a9cj9a-d1e93-Rd1e954" target="http://scta.info/resource/cice-l3t19-Dd1e214">infra, de rerum perm., cum
+            universorum</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e957" target="http://scta.info/resource/cice-l3t24-Dd1e214">infra, de dona., inter dilectos</ref>; <ref xml:id="a9cj9a-d1e93-Rd1e960" target="http://scta.info/resource/bgy6gt-d1e1441-Dd1e120">ff. ad Velleia., et primo § verba.</ref> Quia
+            stultis non consuevit subveniri, sed errantibus, <ref xml:id="a9cj9a-d1e93-Rd1e963" target="http://scta.info/resource/bgy6gt-d1e1823-Dd1e201">ff. de iuris et fact. ignor., regula §
             si quis ius</ref>; et C. si min. se maior. dix., si is. Et utilius esurienti panis tollitur,
-            quam si securus de cibo iustitiam negligat, <ref>5. q. 5, non omnis</ref>; et <ref target="http://scta.info/resource/gd-p2c23q4-Dd1e688">23. q. 4, nimium
+            quam si securus de cibo iustitiam negligat, <ref xml:id="a9cj9a-d1e93-Rd1e967">5. q. 5, non omnis</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e969" target="http://scta.info/resource/gd-p2c23q4-Dd1e688">23. q. 4, nimium
             sunt.</ref> Et ideo talis consuetudo merito reprobatur.
           </p>
-          <p>
-            <quote>Alienat</quote> Quod de iure fieri non debet, <ref target="http://scta.info/resource/bgy6gt-d1e1885-Dd1e127">ff. de fund. dot., fundus</ref>; et <ref target="http://scta.info/resource/bgy6gt-d1e1885-Dd1e141">ff.
+          <p xml:id="a9cj9a-d1e93-d1e973">
+            <quote xml:id="a9cj9a-d1e93-Qd1e975">Alienat</quote> Quod de iure fieri non debet, <ref xml:id="a9cj9a-d1e93-Rd1e977" target="http://scta.info/resource/bgy6gt-d1e1885-Dd1e127">ff. de fund. dot., fundus</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e980" target="http://scta.info/resource/bgy6gt-d1e1885-Dd1e141">ff.
             de fund. dot., lex Iulia.</ref> Nec etiam propter delictum mariti bona mulieris sunt
-            distrahenda, <ref>C. ne uxo. pro marit., frustra</ref>; <ref target="http://scta.info/resource/azsw2e-d1e1974-Dd1e116">C. ne uxo. pro marit., ob maritorum</ref>; et <ref target="http://scta.info/resource/azsw2e-d1e1974-Dd1e126">C.
-            ne uxo. pro marit., cum te possessiones</ref>; <ref target="http://scta.info/resource/azsw2e-d1e5744-Dd1e106">C. ad leg. Iul. de vi pub. vel priv., ob
-            debitum</ref>; et <ref target="http://scta.info/resource/cice-l3t21-Dd1e169">infra, de pignor., ex litteris.</ref> In casu tamen quandoque distrahuntur bona
+            distrahenda, <ref xml:id="a9cj9a-d1e93-Rd1e983">C. ne uxo. pro marit., frustra</ref>; <ref xml:id="a9cj9a-d1e93-Rd1e985" target="http://scta.info/resource/azsw2e-d1e1974-Dd1e116">C. ne uxo. pro marit., ob maritorum</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e989" target="http://scta.info/resource/azsw2e-d1e1974-Dd1e126">C.
+            ne uxo. pro marit., cum te possessiones</ref>; <ref xml:id="a9cj9a-d1e93-Rd1e992" target="http://scta.info/resource/azsw2e-d1e5744-Dd1e106">C. ad leg. Iul. de vi pub. vel priv., ob
+            debitum</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e995" target="http://scta.info/resource/cice-l3t21-Dd1e169">infra, de pignor., ex litteris.</ref> In casu tamen quandoque distrahuntur bona
             mulieris pro viro, ut in causa primipilarii bona mulieris pro marito obnoxia sunt fisco,
-            si omnia bona mariti exhausta sunt, <ref>C. in quib. caus. pign., satis.</ref> Nec valet alienatio
-            fundi dotalis, etiam si mulier consentiat, C. ad Velleia., authen. sive a me; et <ref>in
+            si omnia bona mariti exhausta sunt, <ref xml:id="a9cj9a-d1e93-Rd1e998">C. in quib. caus. pign., satis.</ref> Nec valet alienatio
+            fundi dotalis, etiam si mulier consentiat, C. ad Velleia., authen. sive a me; et <ref xml:id="a9cj9a-d1e93-Rd1e1000">in
             Auth. ut immob. ante nupt. don. § si proprie, coll. 5.</ref> Sed si iuraverit non
-            contravenire, tenet venditio, <ref>infra, de iureiur., cum contingat</ref>; si sine vi et dolo
+            contravenire, tenet venditio, <ref xml:id="a9cj9a-d1e93-Rd1e1002">infra, de iureiur., cum contingat</ref>; si sine vi et dolo
             praestitum sit iuramentum sponte. Constante etiam matrimonio in tali casu, cum incipit
-            vergere ad inopiam mulier potest repetere dotem, <ref target="http://scta.info/resource/azsw2e-d1e2717-Dd1e419">C. de iure dot., in rebus</ref>; et <ref target="http://scta.info/resource/azsw2e-d1e2717-Dd1e406">C. de
+            vergere ad inopiam mulier potest repetere dotem, <ref xml:id="a9cj9a-d1e93-Rd1e1005" target="http://scta.info/resource/azsw2e-d1e2717-Dd1e419">C. de iure dot., in rebus</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e1008" target="http://scta.info/resource/azsw2e-d1e2717-Dd1e406">C. de
             iure dot., ubi.
           </ref></p>
-          <p>
-            <quote>Bonis</quote> Et etiam dotem suam propter adulterium perdere debet, <ref target="http://scta.info/resource/azsw2e-d1e2717-Dd1e352">C. de iure
-            dot., si dotem</ref>; et <ref target="http://scta.info/resource/azsw2e-d1e5710-Dd1e507">C. de adulter., libertatem</ref>; et <ref target="http://scta.info/resource/cice-l4t20-Dd1e153">infra, de do. inter virum et uxorem,
+          <p xml:id="a9cj9a-d1e93-d1e1012">
+            <quote xml:id="a9cj9a-d1e93-Qd1e1014">Bonis</quote> Et etiam dotem suam propter adulterium perdere debet, <ref xml:id="a9cj9a-d1e93-Rd1e1016" target="http://scta.info/resource/azsw2e-d1e2717-Dd1e352">C. de iure
+            dot., si dotem</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e1019" target="http://scta.info/resource/azsw2e-d1e5710-Dd1e507">C. de adulter., libertatem</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e1022" target="http://scta.info/resource/cice-l4t20-Dd1e153">infra, de do. inter virum et uxorem,
             plerumque, ubi de hoc.
           </ref></p>
-          <p>
-            <quote>Observandas</quote> Iuri contrarias, ut dictum est. Per primam consuetudinem
+          <p xml:id="a9cj9a-d1e93-d1e1025">
+            <quote xml:id="a9cj9a-d1e93-Qd1e1027">Observandas</quote> Iuri contrarias, ut dictum est. Per primam consuetudinem
             invitabantur viri ad dissipandum bona sua, per alteram mulieres proniores erant ad
-            committendum adulterium, arg. <ref>ff. de pac. dotal., convenire.</ref> Talis compensatio non est
+            committendum adulterium, arg. <ref xml:id="a9cj9a-d1e93-Rd1e1029">ff. de pac. dotal., convenire.</ref> Talis compensatio non est
             admittenda.
           </p>
         </div>
-        <div>
-          <head>Caput 11</head>
-          <p>
-            <quote>Diutius</quote> Infra, de simon., cum in ecclesiae; et <ref target="http://scta.info/resource/cice-l4t7-Dd1e169">infra, de eo qui dux. in
+        <div xml:id="a9cj9a-d1e93-Dd1e1033">
+          <head xml:id="a9cj9a-d1e93-Hd1e1035">Caput 11</head>
+          <p xml:id="a9cj9a-d1e93-d1e1037">
+            <quote xml:id="a9cj9a-d1e93-Qd1e1039">Diutius</quote> Infra, de simon., cum in ecclesiae; et <ref xml:id="a9cj9a-d1e93-Rd1e1041" target="http://scta.info/resource/cice-l4t7-Dd1e169">infra, de eo qui dux. in
             matr. quam pol. per adult., cum haberet.
           </ref></p>
-          <p>
-            <quote>Naturali iuri</quote> Quod immobile perserverat, 5. dist. § sed cum ius naturale;
-            <ref target="http://scta.info/resource/gd-p2c25q1-Dd1e179">25. q. 1, sunt quidam.</ref> Et hoc verum est quantum ad praecepta vel prohibitiones quae
+          <p xml:id="a9cj9a-d1e93-d1e1044">
+            <quote xml:id="a9cj9a-d1e93-Qd1e1046">Naturali iuri</quote> Quod immobile perserverat, 5. dist. § sed cum ius naturale;
+            <ref xml:id="a9cj9a-d1e93-Rd1e1048" target="http://scta.info/resource/gd-p2c25q1-Dd1e179">25. q. 1, sunt quidam.</ref> Et hoc verum est quantum ad praecepta vel prohibitiones quae
             moralia sunt, et non mutantur, ut non occides, non furtum facies, honora patrem, etc.,
-            <ref>6. dist., non est § his itaque.</ref> Et naturalia quidem iura immutabilia sunt civilia vero
-            mutabilia, <ref>Inst. de iure natural. § sed naturalia</ref>; <ref target="http://scta.info/resource/cice-l4t14-Dd1e214">infra, de cons. et affin., non debet.</ref>
+            <ref xml:id="a9cj9a-d1e93-Rd1e1051">6. dist., non est § his itaque.</ref> Et naturalia quidem iura immutabilia sunt civilia vero
+            mutabilia, <ref xml:id="a9cj9a-d1e93-Rd1e1053">Inst. de iure natural. § sed naturalia</ref>; <ref xml:id="a9cj9a-d1e93-Rd1e1055" target="http://scta.info/resource/cice-l4t14-Dd1e214">infra, de cons. et affin., non debet.</ref>
             Et ideo nulla consuetudo praevalet contra ius naturale, etiam si omnes homines de mundo
-            contra facerent, <ref>32. q. 7, flagitia</ref>; cuius ignorantia neminem excusat, <ref target="http://scta.info/resource/gd-p2c1q4-Dd1e286">1. q. 4, turbatur
-            § notandum</ref>; et ibi nihil interest in vitio decipere vel decipi, <ref target="http://scta.info/resource/gd-p2c16q1-Dd1e177">16. q. 1, si cupis</ref>; et
-            de ignorantia dicitur quod qui ignorat, ignorabiliter, <ref>37. dist., ideo § ut itaque.</ref> De
+            contra facerent, <ref xml:id="a9cj9a-d1e93-Rd1e1059">32. q. 7, flagitia</ref>; cuius ignorantia neminem excusat, <ref xml:id="a9cj9a-d1e93-Rd1e1061" target="http://scta.info/resource/gd-p2c1q4-Dd1e286">1. q. 4, turbatur
+            § notandum</ref>; et ibi nihil interest in vitio decipere vel decipi, <ref xml:id="a9cj9a-d1e93-Rd1e1064" target="http://scta.info/resource/gd-p2c16q1-Dd1e177">16. q. 1, si cupis</ref>; et
+            de ignorantia dicitur quod qui ignorat, ignorabiliter, <ref xml:id="a9cj9a-d1e93-Rd1e1067">37. dist., ideo § ut itaque.</ref> De
             ignorantia iuris naturalis et civilis tractatur in summa, 1. q. 4 § notandum; et ibi
             recurrendum est.
           </p>
-          <p>
-            <quote>Vilis auctoritas</quote> Sed quaeritur de qua consuetudine hic intellexit
+          <p xml:id="a9cj9a-d1e93-d1e1070">
+            <quote xml:id="a9cj9a-d1e93-Qd1e1072">Vilis auctoritas</quote> Sed quaeritur de qua consuetudine hic intellexit
             Gregorius. Si dicis de bona consuetudine illam nulla ratio sive ius vincit, immo
-            aequiparatur ei, <ref target="http://scta.info/resource/gd-p1d11-Dd1e207">11. dist., in his.</ref> Si de mala, de illa non potest dici quod non sit
+            aequiparatur ei, <ref xml:id="a9cj9a-d1e93-Rd1e1074" target="http://scta.info/resource/gd-p1d11-Dd1e207">11. dist., in his.</ref> Si de mala, de illa non potest dici quod non sit
             vilis. Super hoc dicunt quidam quod principium istius § debet intelligi de bona
             consuetudine, et finis de mala, et ita diversimode intelligunt. Sed haec non fuit
             intentio legis unde § iste sumitur, C. quae sit long. consuet., consuetudinis; et ideo
@@ -540,75 +538,75 @@
             praeiudicat iuri, sed in eo loco praeiudicat iuri ubi consuetudo servatur. Et iste
             intellectus planus et facilis est. Sed de hoc nulla dubitatio est quod consuetudo unius
             loci iuri positivo generaliter praeiudicet omnibus locis. Et ideo sic debet intelligi
-            lex illa quam habes <ref target="http://scta.info/resource/gd-p1d11-Dd1e155">11. dist., consuetudinis.</ref> Quamvis particularis consuetudo non est
+            lex illa quam habes <ref xml:id="a9cj9a-d1e93-Rd1e1077" target="http://scta.info/resource/gd-p1d11-Dd1e155">11. dist., consuetudinis.</ref> Quamvis particularis consuetudo non est
             vilis, non tamen praeiudicat iuri positivo, nisi fuerit rationabilis et legitime sit
             praescripta. Et haec expositio reprobet duas primas opiniones, quas facit hic Gregorius
-            in fine, et sic intellige <ref target="http://scta.info/resource/gd-p1d11-Dd1e155">11. dist., consuetudinis.
+            in fine, et sic intellige <ref xml:id="a9cj9a-d1e93-Rd1e1080" target="http://scta.info/resource/gd-p1d11-Dd1e155">11. dist., consuetudinis.
           </ref></p>
-          <p>
-            <quote>Rationabilis</quote> Et quam consuetudinem dices rationabilem? Illam dico
-            rationabilem, quam non improbant iura, <ref target="http://scta.info/resource/cice-l2t12-Dd1e138">infra, de caus. poss. et propr., cum ecclesia</ref>; et
-            <ref target="http://scta.info/resource/cice-l1t4-Dd1e214">supra, de consuet., cum dilectus</ref>; et <ref target="http://scta.info/resource/cice-l5t40-Dd1e472">infra, de verb. sign., abbate.</ref> Ut si quandoque
+          <p xml:id="a9cj9a-d1e93-d1e1083">
+            <quote xml:id="a9cj9a-d1e93-Qd1e1085">Rationabilis</quote> Et quam consuetudinem dices rationabilem? Illam dico
+            rationabilem, quam non improbant iura, <ref xml:id="a9cj9a-d1e93-Rd1e1087" target="http://scta.info/resource/cice-l2t12-Dd1e138">infra, de caus. poss. et propr., cum ecclesia</ref>; et
+            <ref xml:id="a9cj9a-d1e93-Rd1e1090" target="http://scta.info/resource/cice-l1t4-Dd1e214">supra, de consuet., cum dilectus</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e1093" target="http://scta.info/resource/cice-l5t40-Dd1e472">infra, de verb. sign., abbate.</ref> Ut si quandoque
             admittantur aliqui ad electionem ad quos non pertinet de iure communi, et de alio
             collegio, ista consuetudo non improbatur a iure, ut dicunt iura praedicta, et illa est
             rationabilis, quod tantum capitulum eligat canonicos sibi, et alios inferiores praelatos
-            irrequisito episcopo, <ref target="http://scta.info/resource/cice-l1t6-Dd1e558">infra, de elect., cum ecclesia.</ref> Vel episcopus solus hoc faciat,
-            <ref target="http://scta.info/resource/cice-l3t10-Dd1e184">infra, de his quae fi. a prael., ea noscitur</ref>; licet de iure unum corpus sint, <ref>infra, de
+            irrequisito episcopo, <ref xml:id="a9cj9a-d1e93-Rd1e1096" target="http://scta.info/resource/cice-l1t6-Dd1e558">infra, de elect., cum ecclesia.</ref> Vel episcopus solus hoc faciat,
+            <ref xml:id="a9cj9a-d1e93-Rd1e1100" target="http://scta.info/resource/cice-l3t10-Dd1e184">infra, de his quae fi. a prael., ea noscitur</ref>; licet de iure unum corpus sint, <ref xml:id="a9cj9a-d1e93-Rd1e1103">infra, de
             his quae fi. a prael., novit.</ref> Et de iure communi deberet fieri ab omnibus communiter ab
-            episcopo et canonicis, ut quandoque fit <ref target="http://scta.info/resource/cice-l3t8-Dd1e320">infra, de concess. praeben., postulastis.</ref> Et
+            episcopo et canonicis, ut quandoque fit <ref xml:id="a9cj9a-d1e93-Rd1e1105" target="http://scta.info/resource/cice-l3t8-Dd1e320">infra, de concess. praeben., postulastis.</ref> Et
             illam dicerem rationabilem quod absentes non vocentur ad electionem, ut in multis locis
             contingit, ut in Tuscia et in multis ecclesiis. Et huiusmodi consuetudines legitime
             praescribuntur, ut patet per praedicta exempla. Illam dico generaliter rationabiliter
             quae non obviat canonicis institutis. Irrationabilis est quae improbatur a iure, qualis
-            est illa <ref target="http://scta.info/resource/cice-l3t7-Dd1e138">infra, de instit., ex frequentibus</ref>; <ref target="http://scta.info/resource/cice-l1t4-Dd1e108">supra, de consuet., consuetudines</ref>; et
-            <ref target="http://scta.info/resource/cice-l1t4-Dd1e169">supra, de consuet., cum inter</ref>; et <ref>infra, de re iudic., cum causa.</ref> Et generaliter ubi
-            aliquid sit contra nervum ecclesiasticae disciplinae sive libertatem, <ref target="http://scta.info/resource/cice-l1t6-Dd1e305">infra, de elect.,
-            cum terra</ref>; et <ref target="http://scta.info/resource/cice-l1t6-Dd1e861">infra, de elect., sacrosancta</ref>; et <ref target="http://scta.info/resource/cice-l1t6-Dd1e937">infra, de elect., Massana.
+            est illa <ref xml:id="a9cj9a-d1e93-Rd1e1108" target="http://scta.info/resource/cice-l3t7-Dd1e138">infra, de instit., ex frequentibus</ref>; <ref xml:id="a9cj9a-d1e93-Rd1e1111" target="http://scta.info/resource/cice-l1t4-Dd1e108">supra, de consuet., consuetudines</ref>; et
+            <ref xml:id="a9cj9a-d1e93-Rd1e1114" target="http://scta.info/resource/cice-l1t4-Dd1e169">supra, de consuet., cum inter</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e1118">infra, de re iudic., cum causa.</ref> Et generaliter ubi
+            aliquid sit contra nervum ecclesiasticae disciplinae sive libertatem, <ref xml:id="a9cj9a-d1e93-Rd1e1120" target="http://scta.info/resource/cice-l1t6-Dd1e305">infra, de elect.,
+            cum terra</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e1123" target="http://scta.info/resource/cice-l1t6-Dd1e861">infra, de elect., sacrosancta</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e1126" target="http://scta.info/resource/cice-l1t6-Dd1e937">infra, de elect., Massana.
           </ref></p>
-          <p>
-            <quote>Legitime sit praescripta</quote> Spatio quadraginta annorum, <ref target="http://scta.info/resource/cice-l2t12-Dd1e138">infra, de caus.
-            poss. et propr., cum ecclesia</ref>; et <ref target="http://scta.info/resource/cice-l2t26-Dd1e320">infra, de praescrip., auditis.</ref> De hoc potestis habere
-            multa iura, ea enim solum locum habent in rebus ecclesiasticis, <ref>16. q. 3, placuit ut §
+          <p xml:id="a9cj9a-d1e93-d1e1130">
+            <quote xml:id="a9cj9a-d1e93-Qd1e1132">Legitime sit praescripta</quote> Spatio quadraginta annorum, <ref xml:id="a9cj9a-d1e93-Rd1e1134" target="http://scta.info/resource/cice-l2t12-Dd1e138">infra, de caus.
+            poss. et propr., cum ecclesia</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e1137" target="http://scta.info/resource/cice-l2t26-Dd1e320">infra, de praescrip., auditis.</ref> De hoc potestis habere
+            multa iura, ea enim solum locum habent in rebus ecclesiasticis, <ref xml:id="a9cj9a-d1e93-Rd1e1140">16. q. 3, placuit ut §
             quas actiones.</ref> Ad hoc ergo ut consuetudo iuri communi praeiudicet, requiritur primo quod
-            rationabilis sit, et quod sit praescripta, ut hic, et <ref target="http://scta.info/resource/cice-l2t12-Dd1e138">infra, de caus. poss. et propr.,
-            cum ecclesia</ref>; item quod ex certa scientia et non per errorem sit inducta, <ref target="http://scta.info/resource/bgy6gt-d1e81-Dd1e435">ff. de legib.,
+            rationabilis sit, et quod sit praescripta, ut hic, et <ref xml:id="a9cj9a-d1e93-Rd1e1142" target="http://scta.info/resource/cice-l2t12-Dd1e138">infra, de caus. poss. et propr.,
+            cum ecclesia</ref>; item quod ex certa scientia et non per errorem sit inducta, <ref xml:id="a9cj9a-d1e93-Rd1e1146" target="http://scta.info/resource/bgy6gt-d1e81-Dd1e435">ff. de legib.,
             quibus, in fi.</ref> Et quod sit tale ius quod possit praescribi. Nam quaedam sunt quae non
-            possunt praescribi, saltem a laicis, <ref target="http://scta.info/resource/cice-l2t26-Dd1e199">infra, de praescrip., causam quae</ref>; et <ref target="http://scta.info/resource/cice-l2t26-Dd1e335">infra, de
-            praescrip., cum ex officii</ref>; et <ref target="http://scta.info/resource/cice-l2t26-Dd1e275">infra, de praescrip., cum non liceat</ref>; et quod non sit
-            contra ius naturalem, <ref>32. q. 7, flagitia</ref>; vel saltem quod sit observata in
-            contradictorio iudicio, <ref target="http://scta.info/resource/bgy6gt-d1e81-Dd1e459">ff. de legib., cum de consuetudine</ref>; et <ref target="http://scta.info/resource/cice-l5t40-Dd1e472">infra, de verb. sign.,
+            possunt praescribi, saltem a laicis, <ref xml:id="a9cj9a-d1e93-Rd1e1149" target="http://scta.info/resource/cice-l2t26-Dd1e199">infra, de praescrip., causam quae</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e1152" target="http://scta.info/resource/cice-l2t26-Dd1e335">infra, de
+            praescrip., cum ex officii</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e1155" target="http://scta.info/resource/cice-l2t26-Dd1e275">infra, de praescrip., cum non liceat</ref>; et quod non sit
+            contra ius naturalem, <ref xml:id="a9cj9a-d1e93-Rd1e1158">32. q. 7, flagitia</ref>; vel saltem quod sit observata in
+            contradictorio iudicio, <ref xml:id="a9cj9a-d1e93-Rd1e1160" target="http://scta.info/resource/bgy6gt-d1e81-Dd1e459">ff. de legib., cum de consuetudine</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e1164" target="http://scta.info/resource/cice-l5t40-Dd1e472">infra, de verb. sign.,
             abbate.</ref> Item requiritur quod sis usus illa consuetudine sive vicibus illis quibus usus
-            es eo animo ut intendas, sive credas te ius habere, et ut in posterum id facias, <ref>ff. de
-            itin. act. priv., praetor ait § Iulianus recte ait</ref>; et <ref target="http://scta.info/resource/bgy6gt-d1e3844-Dd1e270">ff. de itin. act. priv., si per
+            es eo animo ut intendas, sive credas te ius habere, et ut in posterum id facias, <ref xml:id="a9cj9a-d1e93-Rd1e1167">ff. de
+            itin. act. priv., praetor ait § Iulianus recte ait</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e1169" target="http://scta.info/resource/bgy6gt-d1e3844-Dd1e270">ff. de itin. act. priv., si per
             fundum</ref>; alias non prodest, ut ibi dicitur. Et sic solae vices non inducunt
-            consuetudinem, quia non exemplis sed legibus iudicandum est, <ref target="http://scta.info/resource/azsw2e-d1e4471-Dd1e198">C. de sent. et interloc.
-            om. iud., nemo.</ref> Sed secundum consuetudinem talem bene iudicaretur, ut dictum est, <ref target="http://scta.info/resource/bgy6gt-d1e81-Dd1e499">ff. de
+            consuetudinem, quia non exemplis sed legibus iudicandum est, <ref xml:id="a9cj9a-d1e93-Rd1e1172" target="http://scta.info/resource/azsw2e-d1e4471-Dd1e198">C. de sent. et interloc.
+            om. iud., nemo.</ref> Sed secundum consuetudinem talem bene iudicaretur, ut dictum est, <ref xml:id="a9cj9a-d1e93-Rd1e1175" target="http://scta.info/resource/bgy6gt-d1e81-Dd1e499">ff. de
             legib., nam imperator.</ref> Item requiritur quod maior pars populi usa sit ea consuetudine ad
             hoc, ut secundum illam iudicetur. Quia sicut minor pars populi non posset inducere
             legem, ita nec consuetudinem. Item et illa consuetudo praeiudicat iuri, cuius non extat
-            memoria hominum, <ref>3. q. 6, haec quippe</ref>; et <ref target="http://scta.info/resource/cice-l5t40-Dd1e487">infra, de verb. sign., super quibusdam § 1</ref>; et
-            <ref target="http://scta.info/resource/bgy6gt-d1e3855-Dd1e263">ff. de aqua quot. et aest., hoc iure § ductus aquae</ref>; et <ref>ff. de aqua pluv. arc., in summa
-            § idem Labeo</ref>; et <ref target="http://scta.info/resource/bgy6gt-d1e1789-Dd1e414">ff. de probation., si arbiter.</ref> Et sic videtur quod difficile sit
+            memoria hominum, <ref xml:id="a9cj9a-d1e93-Rd1e1178">3. q. 6, haec quippe</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e1181" target="http://scta.info/resource/cice-l5t40-Dd1e487">infra, de verb. sign., super quibusdam § 1</ref>; et
+            <ref xml:id="a9cj9a-d1e93-Rd1e1184" target="http://scta.info/resource/bgy6gt-d1e3855-Dd1e263">ff. de aqua quot. et aest., hoc iure § ductus aquae</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e1187">ff. de aqua pluv. arc., in summa
+            § idem Labeo</ref>; et <ref xml:id="a9cj9a-d1e93-Rd1e1189" target="http://scta.info/resource/bgy6gt-d1e1789-Dd1e414">ff. de probation., si arbiter.</ref> Et sic videtur quod difficile sit
             probare consuetudinem et praescriptionem. Sed quam differentiam facis inter
             consuetudinem et praescriptionem? Illa potest assignari, ut quidam dicunt, quod ubi
             consuetudo praetenditur, admitti posset probatio in contrarium, ut probetur indebitum
-            fuisse quod consuevit percipi. Arg. a contrario <ref target="http://scta.info/resource/azsw2e-d1e7587-Dd1e333">C. de agric. et cens., litibus, lib. 11.</ref>
+            fuisse quod consuevit percipi. Arg. a contrario <ref xml:id="a9cj9a-d1e93-Rd1e1192" target="http://scta.info/resource/azsw2e-d1e7587-Dd1e333">C. de agric. et cens., litibus, lib. 11.</ref>
             Sed ubi praescriptio est, non admittitur probatio in contrarium ad probandum indebitum
-            fuisse. Arg. a contrario <ref target="http://scta.info/resource/cice-l2t26-Dd1e351">infra, de praescrip., si diligenti, ubi dicitur quod bona fides
-            et iustus titulus requiruntur</ref>, et ibi dicitur quando exigitur titulus et quando non, <ref>C.
+            fuisse. Arg. a contrario <ref xml:id="a9cj9a-d1e93-Rd1e1195" target="http://scta.info/resource/cice-l2t26-Dd1e351">infra, de praescrip., si diligenti, ubi dicitur quod bona fides
+            et iustus titulus requiruntur</ref>, et ibi dicitur quando exigitur titulus et quando non, <ref xml:id="a9cj9a-d1e93-Rd1e1199">C.
             de pigner. act., nec creditores.</ref> Item qui petit aliquid sibi deberi vel fieri ex
             consuetudine, debet allegare causam petendi. Et tunc sufficit probare solum tempus,
             licet non probet causam. Et tunc non admittitur probatio in contrarium, et secundum hoc
             non videtur differentia inter consuetudinem et praescriptionem, quia in prasecriptione
             quandoque probatur titulus. Ita dicunt quidam quare solum tempus non est causa
-            inducendae obligationis sicut nec tollendae, <ref target="http://scta.info/resource/bgy6gt-d1e4084-Dd1e655">ff. de act. et oblig., obligationum §
+            inducendae obligationis sicut nec tollendae, <ref xml:id="a9cj9a-d1e93-Rd1e1201" target="http://scta.info/resource/bgy6gt-d1e4084-Dd1e655">ff. de act. et oblig., obligationum §
             placet.</ref> Et haec opinio magis placet secundum Io. Alii dicunt quod sola consuetudo
-            sufficit etiam sine causa. Arg. <ref target="http://scta.info/resource/cice-l2t12-Dd1e138">infra, de caus. poss. et propr., cum ecclesia, ubi de
+            sufficit etiam sine causa. Arg. <ref xml:id="a9cj9a-d1e93-Rd1e1204" target="http://scta.info/resource/cice-l2t12-Dd1e138">infra, de caus. poss. et propr., cum ecclesia, ubi de
             hoc.</ref> Ubi vero aliquis est in possessione percipiendi aliquid, et ei quaestio movetur,
             tuendus est in possessione quousque probetur contrarium, scilicet, indebitum, quia
-            possidet ratione consuetudinis, <ref target="http://scta.info/resource/gd-p2c16q4-Dd1e127">16. q. 4, volumus.</ref> Nisi vi, precario, seu clam
-            possideat, tunc qui dedit sua auctoritate potest revocare, ut <ref>10. q. 3, quia cognovimus</ref>;
-            <ref target="http://scta.info/resource/cice-l3t7-Dd1e184">infra, de instit., cum venissent.</ref> Item in alio potest esse differentia inter
+            possidet ratione consuetudinis, <ref xml:id="a9cj9a-d1e93-Rd1e1207" target="http://scta.info/resource/gd-p2c16q4-Dd1e127">16. q. 4, volumus.</ref> Nisi vi, precario, seu clam
+            possideat, tunc qui dedit sua auctoritate potest revocare, ut <ref xml:id="a9cj9a-d1e93-Rd1e1210">10. q. 3, quia cognovimus</ref>;
+            <ref xml:id="a9cj9a-d1e93-Rd1e1212" target="http://scta.info/resource/cice-l3t7-Dd1e184">infra, de instit., cum venissent.</ref> Item in alio potest esse differentia inter
             consuetudinem et praescriptionem, quia consuetudo quandoque debet esse obtenta
             contradictorio iudicio populi, praescriptio vero non. Item quia in consuetudine
             requiritur quod maior pars populi utatur illa, ut dictum est, in praescriptionibus non
